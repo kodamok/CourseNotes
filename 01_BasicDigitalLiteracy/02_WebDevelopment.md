@@ -53,12 +53,21 @@
 * Node.js
   - modules
 
-## Programming languages
+## Tools
+  - Visual Studio Code
+  - GitHub
+  - Markdown
+  - HTML
+  - CSS
   - JavaScript
-  - mongo queries
-  - API (Application Programming Interface) calls with Postman
+  - React
+  - MongoDB and mongoose
+  - Postman
+  - REST APIs (Application Programming Interface)
 
 ## [Web Dev curriculum](../WebDeveloperCurriculum-Summary.pdf) overview
+
+Adding layers like a Russian doll
 
 1. Basic Digital Literacy
 2. UI Basics (HTML, CSS)
