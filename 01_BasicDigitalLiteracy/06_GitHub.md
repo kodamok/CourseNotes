@@ -70,25 +70,28 @@
 
 ## Cloning, Pushing and Pulling:
 - Cloning a remote: `git clone <url>`
-- Brief introduction to forking: Create a copy of an existing repository under new ownership
 - Pushing changes: `git push`
 - Pulling changes: `git pull`
 
 ## Locals and Remotes:
 - Local repository vs. Remote repository
-- Creating a repository on GH (no readme)
 - Checking a repository's remotes: `git remote -v`
+- Removing a remote: `git remote remove <name>`
 - Adding a remote: `git remote add <name> <url>`
 - Pushing a branch for the first time:
   `git push -u <remote name>
   <branch name>`
 
-# Introduction: Working together with git and github
-* Conflicts:
+# Working together with git and GitHub
+
+## Forks
+
+## Conflicts:
   - Making changes to the same file in the same branch
   - Resolving pull conflicts (with VS Code / Atom)
   - Minimizing conflicts: Single branch per person per task (GitHub Flow)
-* Reviewing:
+
+## Reviewing:
   - Creating a Pull Request on GitHub
   - Pull Request review process
   - Dealing with conflicts in Pull Request (Test merging)
