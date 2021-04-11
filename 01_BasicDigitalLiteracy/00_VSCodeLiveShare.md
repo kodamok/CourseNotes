@@ -42,7 +42,7 @@
   * Paste `ext install MS-vsliveshare.vsliveshare-pack` into the text entry field
   * Press `Return`
   * Reload VS Code
-  * A `Live Share` button should now be available in the blue status bar at the bottom
+  * A `Live Share` button should now be available in the blue status bar at the bottom
 
 * [Quick Start Guide](https://docs.microsoft.com/en-us/visualstudio/liveshare/quickstart/join)
 
