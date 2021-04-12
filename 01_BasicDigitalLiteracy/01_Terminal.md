@@ -1,3 +1,4 @@
+
 # [TEST](https://forms.gle/1pSWCpNheeSqKHx27)
 * [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
 
@@ -7,7 +8,6 @@
 * In VS Code, split the Terminal panel into two panes: remote and local
 * Observe commands in remote pane; run the same commands locally
 * If you are on Windows, first use the command `bash`
-  (Ask Patryk for help, if necessary)
 
 # Learning Basic bash
 

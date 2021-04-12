@@ -1,11 +1,12 @@
 # RECORD ZOOM SESSION #
 
 # Learning by doing
+
 * Punctuality
 * New concepts in the morning, practice in the afternoon
 * Learning how to learn, where to find help and documentation
 * I'll help each of you to master a topic, and then teach it to the others
-* Build yourself a reputation: tutorials on GitHub, Stack Overflow
+* Build yorself a reputation: tutorials on GitHub, Stack Overflow
 * Goose that lays golden eggs
 * Use the project you want to work on as a thread to guide you
   - [Emad](https://github.com/emsoltan/dragonfly)
