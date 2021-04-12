@@ -8,6 +8,11 @@
 * Build yourself a reputation: tutorials on GitHub, Stack Overflow
 * Goose that lays golden eggs
 * Use the project you want to work on as a thread to guide you
+  - [Emad](https://github.com/emsoltan/dragonfly)
+  - [Gabriele](https://github.com/gabriberetti/WIKIPLANT)
+  - [Hiwa](https://github.com/hiwataheri/Learn-Programming-)
+  - [Omar](https://github.com/omaralezzi/m-job)
+  - [Patryk](https://github.com/viest1/webdev)
 * Today:
   - Using VS Code to work as a team
   - Creating shared course notes
