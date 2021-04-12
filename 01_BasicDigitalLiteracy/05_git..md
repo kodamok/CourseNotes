@@ -18,10 +18,12 @@
 
 * Git may already be installed
   - `git --version`
-* Using bash to [install Git on Ubuntu or MacOS](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-20-04)
+* Using bash to [install Git on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-20-04)
   - `sudo apt update`
   - `sudo apt install git`
   - `git --version`
+* On MacOS:
+  - [Download the installer](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git#_installing_on_macos)
 * On Windows:
   - [Download the installer](https://git-scm.com/download/win)
   - [Follow the instructions](https://phoenixnap.com/kb/how-to-install-git-windows)
