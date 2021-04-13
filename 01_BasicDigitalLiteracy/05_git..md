@@ -33,6 +33,11 @@ Tell git who you are and where to contact you, so that your contributions to oth
 - `git config --global user.name "Your Name"`
 - `git config --global user.email "your_email@domain.com"`
 
+* [Set VS Code to be default editor for `commit`](https://stackoverflow.com/a/36644561/1927589)
+  * Check `code --help` works
+  * (See [Stack Overflow answer](https://stackoverflow.com/a/36644561/1927589) if not)
+  * `git config --global core.editor "code --wait"`
+
 ## Introduction: git Version Control Systems (VCS)
 * Initializing:
   - The `git` program
@@ -52,8 +57,3 @@ Tell git who you are and where to contact you, so that your contributions to oth
   - Branching out with `git checkout -b <branch name>`
   - Viewing branches with `git branch`
   - Merging with `git merge`
-
-* [Set VS Code to be default editor for `commit`](https://stackoverflow.com/a/36644561/1927589)
-  * Check `code --help` works
-  * (See [Stack Overflow answer](https://stackoverflow.com/a/36644561/1927589) if not)
-  * `git config --global core.editor "code --wait"`
