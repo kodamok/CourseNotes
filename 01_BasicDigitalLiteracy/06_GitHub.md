@@ -17,7 +17,7 @@
     * Question: how to connect securely to GitHub without entering a password every time.
     * Answer: Use [Public Key (and Private Key) Cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography)
 
-## [Create a Public Key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+<h2 id="ssh"><a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh">Create a Public Key</a></h2>
 
 
 ## Creating a repository on GitHub
