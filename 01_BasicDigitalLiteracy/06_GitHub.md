@@ -6,7 +6,8 @@
 ## [GitHub Student Developer Pack](https://gist.github.com/LeandroDCI/b9f53690be5f2aaef2e93913bab5ff13 )
   * LOG OUT OF GITHUB before clicking on your link
 
-## Connect to GitHub with SSH
+<h2 id="ssh">Connect to GitHub with SSH</h2>
+
   * [What is SSH?](https://searchsecurity.techtarget.com/definition/Secure-Shell)
   * Why use it?
     * You will be connecting to GitHub to upload files
@@ -17,7 +18,7 @@
     * Question: how to connect securely to GitHub without entering a password every time.
     * Answer: Use [Public Key (and Private Key) Cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography)
 
-<h2 id="ssh"><a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh">Create a Public Key</a></h2>
+## [Create a Public Key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 
 
 ## Creating a repository on GitHub
