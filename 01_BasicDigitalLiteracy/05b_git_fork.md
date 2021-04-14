@@ -164,7 +164,7 @@ To git@github.com:blackslate/webdev.git
 * Click on the big green Compare & Pull Request button
 ![Compare & pull request](img/compare.png)
 * Enter a useful message so that the project maintainer knows what to expect in the Pull Request
-* Click on the Create Pull Request
+* Click on the Create Pull Request button
 ![Create pull request](img/createPR.png)
 * You'll be taken to a page within the upstream repository where you can discuss the pull request with the maintainer of the project.
 ![Discussion page](img/discussion.png)
