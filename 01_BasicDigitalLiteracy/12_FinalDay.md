@@ -121,6 +121,7 @@ or
 * `git config --global user.email "youremail@domain.com"`
 * `git config --global core.editor "code --wait"`
 * [Create SSH public key for GitHub](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+* [GitHub Student Developer Pack](https://gist.github.com/LeandroDCI/b9f53690be5f2aaef2e93913bab5ff13)
 
 ### Creating a repository locally
 * `cd `path/to/parent/directory
@@ -228,6 +229,10 @@ On your local copy of your fork:
 * [Resources](https://github.com/DigitalCareerInstitute/web-dev-v3-curriculum/tree/master/1_Basic-Digital-Literacy/1.2_Web-Dev)
 
 ## [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+## Group Dynamics
+* Group name
+* Group logo
 
 ---
 ---
