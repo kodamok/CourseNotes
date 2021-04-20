@@ -1,4 +1,4 @@
-# Points covered in this module
+# Points covered in the Basic Digital Literacy module
 
 ## bash
 * What is bash?
@@ -117,6 +117,10 @@ or
 
 * `sudo apt update`
 * `sudo apt install git`
+* `git config --global user.name "Your Name"`
+* `git config --global user.email "youremail@domain.com"`
+* `git config --global core.editor "code --wait"`
+* [Create SSH public key for GitHub](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 
 ### Creating a repository locally
 * `cd `path/to/parent/directory
@@ -141,10 +145,30 @@ or
 * DO NOT add any files (no README file, no .gitignore, no licence files)
 * Click on Create Repository
 * Copy the 3 lines:
+```bash
+git remote add origin git@github.com:<account_name>/<repo_name>.git
+git branch -M main
+git push -u origin main
+```
 
 ### Forking a repository
 
+* Visit source project repository
+* Click on Fork
+* Select your person GitHub account
+
 ### Cloning a repository from GitHub to your local computer
+* In your browser;
+  * Visit the repository page on GitHub
+  * Open the <> Code tab
+  * Click on the green Code button
+  * Copy the SSH url for the repository
+* In VS Code, on your local computer
+  * Open a new window
+  * Open (create) a directory for the project
+  * Open the Terminal pane
+  * `cd` into the project directory
+  * Paste the copied lines of bash code, and execute them
 
 ### Working with branches
 * `git branch`
@@ -184,17 +208,24 @@ On your local copy of your fork:
 * `git checkout main`
 * `git pull upstream/main`
 
-### Issues
+### [Issues](https://guides.github.com/features/issues/)
+* In the GitHub repository page, visit the Issues tab
+* Click on New Issue
+* Enter a title
+* Describe the issue, using MarkDown
+* Select one or more labels (edit the label list as needed)
+* Click Submit New Issue
+* Check the Filters drop-down menu
+* [Link Pull Requests to Issues](https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue)
 
 
 ---
 
-## Unix, Linux and Ubuntu
+## Unix, Linux and Ubuntu and the WWWeb
 
 * For Linux, what are the kernel and the shell?
 * Who developed Linux and git?
-
-## The structure of the web
+* [Resources](https://github.com/DigitalCareerInstitute/web-dev-v3-curriculum/tree/master/1_Basic-Digital-Literacy/1.2_Web-Dev)
 
 ## [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
