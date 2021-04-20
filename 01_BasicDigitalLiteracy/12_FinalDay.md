@@ -1,5 +1,16 @@
 # Points covered in the Basic Digital Literacy module
 
+## Virtual Studio Code
+
+* [Install](https://code.visualstudio.com/download)
+* [Quick Start Guide](https://docs.microsoft.com/en-us/visualstudio/liveshare/quickstart/join)
+
+### Add extensions
+* [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack)
+* [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+* [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+---
 ## bash
 * What is bash?
 * What operating systems does it work on?
@@ -22,7 +33,7 @@
 * whereis
 * which
 * whoami
----
+### Documentation
 * --help
 * man
 ### Parameters
