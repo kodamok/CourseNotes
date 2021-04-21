@@ -26,8 +26,8 @@
 * mv
 * pwd
 * reboot
-* rm
-* rmdir (-rf)
+* rm (-rf)
+* rmdir
 * sudo
 * touch
 * whereis
