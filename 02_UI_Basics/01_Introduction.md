@@ -142,6 +142,7 @@ margin: 0;
 
 ### Common Body Tags
 
+- &lt;h1&gt;&lt;/h1&gt;
 - &lt;p&gt;&lt;/p&gt;
 - &lt;div&gt;&lt;/div&gt;
 - &lt;img /&gt;
@@ -150,6 +151,7 @@ margin: 0;
 - &lt;ul&gt;&lt;/ul&gt;
 - &lt;ol&gt;&lt;/ol&gt;
 - &lt;li&gt;&lt;/li&gt;
+- &lt;!-- _comment_ --&gt;
 
 ### Attributes
 
@@ -162,10 +164,11 @@ margin: 0;
 ## Topics
 
 1. Content
-1. Box-Model
+1. Box Model
+1. Flow
 1. UI/UX
 1. Data
-1. Responsitivity
+1. Responsive Design
 1. Layout
 1. Interactions
 1. Framework
@@ -177,3 +180,17 @@ margin: 0;
 
 - [Emmet](https://code.visualstudio.com/docs/editor/emmet)
 - [CodePen](https://codepen.io/)
+
+## Slides
+
+- [Boilerplate](Boilerplate.pdf)
+- [CSS](CSS%20Specificity%2C%20Inheritance%20and%20the%20Cascade.pdf)
+- [Box Model](canva-intro-content-boxes.pdf)
+- [Accessibility](What%20is%20web%20accessibility_.pdf)
+
+## Resources
+
+- [Learn HTML](https://www.internetingishard.com/html-and-css/basic-web-pages/)
+- [Learn CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)
+- [meta](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta)
+- [Video: What happens when you load a webpage?](https://youtu.be/OE8EvaOPkZ4?t=16)
