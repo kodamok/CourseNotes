@@ -8,13 +8,7 @@
 
 ## [HTML and CSS Pre-Test](https://forms.gle/vqcHfKTiWBoWWLRN8)
 
-## Tools
-
-- [Install Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-
-- [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/open/)
-
-- [Emmet](https://code.visualstudio.com/docs/editor/emmet)
+## [Install Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 ## [Install Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
@@ -41,7 +35,7 @@ Hello World!
 
 ## Use the Developer Tools to inspect the page
 
-- Open Chrome Developer Tools: Ctrl-Shift-I
+- Open [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/open/): Ctrl-Shift-I
 - Notice that the browser has added tags:
 
 ```html
@@ -178,3 +172,7 @@ margin: 0;
 1. Publishing
 1. Assessment
 1. Project
+
+## Tools
+
+- [Emmet](https://code.visualstudio.com/docs/editor/emmet)
