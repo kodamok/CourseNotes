@@ -123,6 +123,12 @@ margin: 0;
 
 - Create separate folders and files for css, js and img
 
+## Practice
+
+- [A repository to fork](https://github.com/FbW-E04-1/css-practice)
+- [Preview](https://fbw-e04-1.github.io/css-practice/)
+- Open the project and change the CSS rules to make the page look the way you want it
+
 ## Tags
 
 - html
