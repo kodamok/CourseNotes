@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>How to Print MarkDown Files</title>
+        <style>
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        
+        
+        
+    </head>
+    <body class="vscode-body vscode-light">
+        <h1 id="how-to-print-markdown-files">How to Print MarkDown Files</h1>
+<p>There is no built-in Print command in VS Code. If you want to print out MarkDown (MD) files, the workaround is to export your MD files as HTML, open them in your browser and print from the browser.</p>
+<p>To do this, you need to install an extension. Here are two extensions that you might like to consider:</p>
+<ul>
+<li>PrintCode</li>
+<li>Markdown All in One</li>
+</ul>
+<h2 id="printcode">PrintCode</h2>
+<p>You can use the <a href="https://printcode.launchaco.com/">PrintCode</a> extension (<a href="https://irishdotnet.dev/fridaydevtip-how-to-print-from-visual-studio-code">review</a>) to print any file as-is, in one step.</p>
+<blockquote>
+<p>😃 To print a file, press <code>F1</code> and type or select <code>PrintCode</code>. Your file will be converted to HTML and opened in the Chrome browser, with the Print dialog already open. Then you simply press the Print button.</p>
+<p>🙂 Code colouring and line numbering will be applied</p>
+<p>😐 This extension only handles printing</p>
+<p>🙁 The printed file shows the original MD code, not nicely formatted text. In particular, images and emojis will not be shown.</p>
+</blockquote>
+<p><img src="file:////home/blackslate/Documents/DCI/Repos/CourseNotes/99_Productivity/img/PrintCode.png" alt="PrintCode output"></p>
+<h2 id="markdown-all-in-one">Markdown All in One</h2>
+<p>You can use the <a href="https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one">Markdown All in One</a> extension to format your files nicely, and export them as PDF or HTML. You can then open the output files manually in the appropriate application, and print them from there.</p>
+<blockquote>
+<p>😃 The files are nicely formatted, in the same way as what you will see in a Preview pane in VS Code or GitHub</p>
+<p>🙂 The extension provides other useful features for creating and previewing MD files.</p>
+<p>🙁 Printing is a multi-step process</p>
+</blockquote>
+<p><img src="file:////home/blackslate/Documents/DCI/Repos/CourseNotes/99_Productivity/img/MarkDown.png" alt="PrintCode output"></p>
+<h1 id="installation-and-printing">Installation and Printing</h1>
+<p>In VS Code, press Ctrl-Shift-X to show eXtensions in the left-hand column.</p>
+<h2 id="printcode-1">PrintCode</h2>
+<ul>
+<li>
+<p>To install:</p>
+<ul>
+<li>Type <code>PrintCode</code> and click on the Install button for PrintCode by nobuhito
+<img src="file:////home/blackslate/Documents/DCI/Repos/CourseNotes/99_Productivity/img/printcode.png" alt="Select the PrintCode extension"></li>
+</ul>
+</li>
+<li>
+<p>To print:</p>
+<ol>
+<li>Press <code>F1</code></li>
+<li>Type or select <code>PrintCode</code> then</li>
+<li>Press Enter</li>
+<li>Your browser will open to show the document, with the Print dialog open</li>
+<li>Press Enter or the Print button</li>
+</ol>
+</li>
+</ul>
+<h2 id="markdown-all-in-one-1">Markdown All in One</h2>
+<ul>
+<li>
+<p>To install:</p>
+<ul>
+<li>Type <code>markdown</code> and click on the Install button for Markdown All in One by Yu Zhang
+<img src="file:////home/blackslate/Documents/DCI/Repos/CourseNotes/99_Productivity/img/markdown.png" alt="Select the Markdown All in One extension"></li>
+</ul>
+</li>
+<li>
+<p>To print:</p>
+<ol>
+<li>Press <code>F1</code></li>
+<li>Type <code>Markdown print</code>, if necessary to filter for the required command</li>
+<li>Select <code>Markdown All in One: Print current document to HTML</code></li>
+<li>Press Enter</li>
+<li>Copy the path to your open MD file to the clipboard (Alt-Ctrl-C)</li>
+<li>In the Terminal, type <code>google-chrome </code> then paste the path that you copied (Ctrl-Shift-V)</li>
+<li>Replace the <code>.md</code> extension with <code>.html</code></li>
+<li>Press Enter</li>
+<li>Google Chrome should open to display the newly created HTML document</li>
+<li>Press Ctrl-P to open the Print dialog</li>
+<li>Press Enter or the Print button</li>
+</ol>
+</li>
+</ul>
+
+    </body>
+    </html>
