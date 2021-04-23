@@ -23,7 +23,7 @@ You can use the [PrintCode](https://printcode.launchaco.com/) extension ([review
 
 ## Markdown All in One
 
-You can use the [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) extension to format your files nicely, and export them as PDF or HTML. You can then open the output files manually in the appropriate application, and print them from there.
+You can use the [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) extension to format your files nicely, and export them as HTML. You can then open the output files manually in the appropriate application, and print them from there.
 
 > :smiley: The files are nicely formatted, in the same way as what you will see in a Preview pane in VS Code or GitHub
 >
