@@ -22,6 +22,11 @@ alias l='ls -CF'
 ```
 This is where the `ll` alias is defined. You can use `man ls` to see what the -A, -C and -F flags do.
 
+## Note
+The exercise below contains a couple of `bash` functions. We will not be covering `bash` scripting in the Web Development course, but you can use the functions as-is. If you have an idea for an alias that will require a function then you can send a direct message to @James on Slack.
+
+---
+
 ## Exercise
 
 **Customize your `.bashrc` file, so that it you can use aliases to speed up your development process.**
