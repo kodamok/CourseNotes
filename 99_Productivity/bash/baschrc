@@ -1,0 +1,59 @@
+
+
+
+
+### ————————————————————————— CUSTOM alias ————————————————————————— ###
+
+# Automatically add all changed files and open an editor for the
+# commit message
+alias gmit='git add .;git commit'
+
+# cd to the top-level directory of the current git project
+# (where the .git folder is stored)
+alias gd='cd $(git rev-parse --show-toplevel)'
+
+# Create a new directory then cd into it. Note the use of -- to indicate
+# the end of the flags, so that you can create a directory whose name starts
+# with a hyphen, and the directory name will not be treated as a flag.
+mkcd ()
+{
+  mkdir -p -- "$1" && cd -P -- "$1"
+}
+
+# Use the gits function to echo the location of all .git directories
+# in the working directory or any of its parent directories. If more
+# than one .git directory is found, you will need to correct this error.
+gits () {
+  found=0
+  folder=.git
+  path=$(pwd)
+  while [[ "$path" != "" ]]; do
+    if [ -e "$path/$folder" ]
+      then
+        let found+=1
+        echo $folder folder found at $path
+    fi
+    path=${path%/*}
+  done
+
+  if [ $found -eq 0 ]
+    then
+      echo No $folder folder found
+  elif [ $found -gt 1 ]
+    then
+      echo $found $folder folders found. Please correct this.
+  fi
+}
+
+# Shortcut to open a new window showing the directory containing user
+# settings
+alias user='code ~/.config/Code/User/'
+
+
+
+#——————————————————————————————————————————————————————————————————————#
+# Add new aliases above this line
+
+## Shortcut to open this file in an editor window
+alias addalias='code ~/.bashrc'
+## Now run `source ~/.bashrc` in the Terminal to activate your new alias

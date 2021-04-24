@@ -66,4 +66,13 @@ In VS Code, press Ctrl-Shift-X to show eXtensions in the left-hand column.
   1. Press Enter
   1. Google Chrome should open to display the newly created HTML document
   1. Press Ctrl-P to open the Print dialog
-  2. Press Enter or the Print button
+  1. Press Enter or the Print button
+
+GUI Alternative:
+
+5. Open the containing folder for your document in Nautilus
+   * Right-Click on file name in Explorer column
+   * Select Open Containing Folder (Alt-Ctrl-R)
+   * Use Alt-Tab to switch to the Files program, if necessary
+6. Double-click on the file to open it in your browser
+7. Continue from step 10 above
