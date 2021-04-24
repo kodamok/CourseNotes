@@ -167,7 +167,7 @@ margin: 0;
 
 ### CSS selectors and rules
 
-## Topics
+## The Topics We'll Be Covering in this Module
 
 1. Content
 1. Box Model
