@@ -60,17 +60,17 @@ In VS Code, press Ctrl-Shift-X to show eXtensions in the left-hand column.
 ![Select the Markdown All in One extension](img/markdown.png)
 
 * To print:
-  1. Press `F1`
-  1. Type `Markdown print`, if necessary to filter for the required command
-  1. Select `Markdown All in One: Print current document to HTML`
-  1. Press Enter
-  1. Copy the path to your open MD file to the clipboard (Alt-Ctrl-C)
-  1. In the Terminal, type `google-chrome ` then paste the path that you copied (Ctrl-Shift-V)
-  1. Replace the `.md` extension with `.html`
-  1. Press Enter
-  1. Google Chrome should open to display the newly created HTML document
-  1. Press Ctrl-P to open the Print dialog
-  1. Press Enter or the Print button
+1. Press `F1`
+2. Type `Markdown print`, if necessary to filter for the required command
+3. Select `Markdown All in One: Print current document to HTML`
+4. Press Enter
+5. Copy the path to your open MD file to the clipboard (Alt-Ctrl-C)
+6. In the Terminal, type `google-chrome ` then paste the path that you copied (Ctrl-Shift-V)
+7. Replace the `.md` extension with `.html`
+8. Press Enter
+9. Google Chrome should open to display the newly created HTML document
+10. Press Ctrl-P to open the Print dialog
+11. Press Enter or the Print button
 
 GUI Alternative:
 
