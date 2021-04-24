@@ -13,6 +13,8 @@ You can use the [PrintCode](https://printcode.launchaco.com/) extension ([review
 
 > :smiley: To print a file, press `F1` and type or select `PrintCode`. Your file will be converted to HTML and opened in the Chrome browser, with the Print dialog already open. Then you simply press the Print button.
 >
+> :slightly_smiling_face: You can print any kind of file (HTML, CSS, JavaScript, ...), not just MarkDown
+>
 > :slightly_smiling_face: Code colouring and line numbering will be applied
 >
 > :neutral_face: This extension only handles printing
@@ -28,6 +30,8 @@ You can use the [Markdown All in One](https://marketplace.visualstudio.com/items
 > :smiley: The files are nicely formatted, in the same way as what you will see in a Preview pane in VS Code or GitHub
 >
 > :slightly_smiling_face: The extension provides other useful features for creating and previewing MD files.
+>
+> :neutral_face: This extension only handles MarkDown
 >
 > :slightly_frowning_face: Printing is a multi-step process
 
