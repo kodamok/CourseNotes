@@ -38,10 +38,13 @@ The exercise below contains a couple of `bash` functions. We will not be coverin
 
     ####### ADD CUSTOM alias COMMANDS BELOW THIS LINE #######
 
-    ## Shortcut to open this file in an editor window
+    # Shortcut to open this file in an editor window
     alias addalias='code ~/.bashrc'
 
-    ## The items in this .bashrc file are loaded once when you log on. To use your new aliases immediately, you need run `source ~/.bashrc` in the Terminal to reload this file. Here's an alias that is easier to remember:
+    # The items in this .bashrc file are loaded once when you
+    # log on. To use your new aliases immediately, you need
+    # to run `source ~/.bashrc` in the Terminal to reload
+    # this file. Here's an alias that is easier to remember:
     alias usenew ='source ~/.bashrc'
     ```
 4. Note that your new alias will not automatically become available until you start a new Terminal session. You can refresh your source of aliases by typing the following in the Terminal window:
