@@ -36,52 +36,58 @@ The exercise below contains a couple of `bash` functions. We will not be coverin
 3. Insert an alias to open this file automatically, for when you want to add a new alias:
     ```bash
 
-    #—————————————————— Add new aliases above this line ——————————————————#
+    ####### ADD CUSTOM alias COMMANDS BELOW THIS LINE #######
 
     ## Shortcut to open this file in an editor window
     alias addalias='code ~/.bashrc'
-    ## Now run `source ~/.bashrc` in the Terminal to activate your new alias
+
+    ## The items in this .bashrc file are loaded once when you log on. To use your new aliases immediately, you need run `source ~/.bashrc` in the Terminal to reload this file. Here's an alias that is easier to remember:
+    alias usenew ='source ~/.bashrc'
     ```
 4. Note that your new alias will not automatically become available until you start a new Terminal session. You can refresh your source of aliases by typing the following in the Terminal window:
     ```bash
     source ~/.bashrc
     ```
-5. The shortcut `git commit -am` is of limited use. It will not add new files to the staging area, and it will not let you use VS Code to create the commit message. And it is also quite a long command to type. You can create an alias for a command that will tell git to automatically add all changed files to the staging area, and then prepare a commit message in the VS Code editor.<br><br>Create a space above the lines that you have just added, and insert a new alias:
+5. This will also activate the new `usenew` alias, so in the future you will not have to remember the `source ~/.bashrc` command. But you will have to use it this first time, because the `usenew` will not work until you do so.
+6. The shortcut `git commit -am` is of limited use. It will not add new files to the staging area, and it will not let you use VS Code to create the commit message. And it is also quite a long command to type. You can create an alias for a command that will tell git to automatically add all changed files to the staging area, and then prepare a commit message in the VS Code editor.<br><br>On a new line below the lines that you have just added, insert a new alias:
     ```bash
-    # Automatically add all changed files and open an editor for the commit message
+    # Automatically add all changed files and open an editor
+    # for the commit message. Note the use of the semi-colon
+    # (;) to enter two commands on one line.
     alias gmit='git add .;git commit'
     ```
 
-6. Note that it is useful:
+7. Note that it is useful:
    * To use a name that is meaningful. This is a shortcut for a command that starts with **g**it and ends with com**mit**. (You can choose your own alias name if you have a better idea).
    * To include a comment to explain what your alias does, so that you can remind yourself about it later.
 
-7. Create an alias that will `cd` to the directory that contains your `.git` folder, at the root of your project.
+8. Save your `.bashrc` file and run `usenew`, then open a git repository make a change and test that `gmit` does indeed add all changes to the staging area and open a COMMIT_EDITMSG file in the editor pane. Note that if you cancel the commit, by closing the COMMIT_EDITMSG file without adding any text, the `git add .` will still have been executed.
+
+9. Create an alias that will `cd` to the directory that contains your `.git` folder, at the root of your project.
     ```bash
-    # cd to the top-level directory of the current git project
-    # (where the .git folder is stored)
+    # cd to the top-level directory of the current git
+    # project (where the .git folder is stored)
     alias gd='cd $(git rev-parse --show-toplevel)'
     ```
-8. You can also create functions that you can call from anywhere. Functions can take parameters. The following `mkcd` function combines a `mkdir` command with a `cd`-into-the-new-directory command. The name of the directory to create is passed as a parameter, exactly like for the `mkdir`command.
+10. You can also create functions that you can call from anywhere. Functions can take parameters. The following `mkcd` function combines a `mkdir` command with a `cd`-into-the-new-directory command. The name of the directory to create is passed as a parameter, exactly like for the `mkdir`command.
 
     ```bash
-    # Create a new directory then cd into it.
-    # Notes:
-    # * The `$1` variable refers to the first parameter of the command.
-    #   For example, if you run the command `mkcd myProject`, the $1
-    #   variable will contain the string 'myProject'
-    # * The end of the flags is indicated by `--`. This means that you
-    #   can create a directory whose name starts with a hyphen, and the
-    #   directory name will not be treated as a flag.
-    mkcd () {
-      mkdir -p -- "$1" && cd -P -- "$1"
+    # Create a new directory then cd into it. Note the use
+    # of -- to indicate the end of the flags, so that you
+    # can create a directory whose name starts with a
+    # hyphen, and the directory name will not be treated as
+    # a flag.
+    mkcd ()
+    {
+    mkdir -p -- "$1" && cd -P -- "$1"
     }
     ```
-9. Here's a function that can be useful when debugging a Git project. If you run `gits` from inside a project directory, it will output the path to the root folder, where the invisible `.git` directory is stored. If you have, by mistake, created your project inside another directory that is already part of another Git project, it will warn you that you have multiple `.git` folders present.
+11. Here's a function that can be useful when debugging a Git project. If you run `gits` from inside a project directory, it will output the path to the root folder, where the invisible `.git` directory is stored. If you have, by mistake, created your project inside another directory that is already part of another Git project, it will warn you that you have multiple `.git` folders present.
     ```bash
-    # Use the gits function to echo the location of all .git directories
-    # in the working directory or any of its parent directories. If more
-    # than one .git directory is found, you must correct this error.
+    # Use the gits function to echo the location of all .git
+    # directories in the working directory or any of its
+    # parent directories. If more than one .git directory is
+    # found, you will need to correct this error.
     gits () {
         found=0     # count the number of times a .git directory is found
         folder=.git # folder to look for
@@ -106,10 +112,10 @@ The exercise below contains a couple of `bash` functions. We will not be coverin
         fi
     }
     ```
-10. Finally (for now), here is a shortcut that will be useful when you start customizing your settings for VS Code.
+12. Finally (for now), here is a shortcut that will be useful when you start customizing your settings for VS Code.
     ```bash
-    # Shortcut to open a new window showing the directory containing user
-    # settings
+    # Shortcut to open a new window showing the directory
+    # containing user settings
     alias user='code ~/.config/Code/User/'
     ```
 
