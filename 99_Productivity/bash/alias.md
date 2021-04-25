@@ -45,7 +45,7 @@ The exercise below contains a couple of `bash` functions. We will not be coverin
     # log on. To use your new aliases immediately, you need
     # to run `source ~/.bashrc` in the Terminal to reload
     # this file. Here's an alias that is easier to remember:
-    alias usenew ='source ~/.bashrc'
+    alias usenew='source ~/.bashrc'
     ```
 4. Note that your new alias will not automatically become available until you start a new Terminal session. You can refresh your source of aliases by typing the following in the Terminal window:
     ```bash
