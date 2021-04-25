@@ -80,9 +80,8 @@ The exercise below contains a couple of `bash` functions. We will not be coverin
     # can create a directory whose name starts with a
     # hyphen, and the directory name will not be treated as
     # a flag.
-    mkcd ()
-    {
-    mkdir -p -- "$1" && cd -P -- "$1"
+    mkcd () {
+      mkdir -p -- "$1" && cd -P -- "$1"
     }
     ```
 11. Here's a function that can be useful when debugging a Git project. If you run `gits` from inside a project directory, it will output the path to the root folder, where the invisible `.git` directory is stored. If you have, by mistake, created your project inside another directory that is already part of another Git project, it will warn you that you have multiple `.git` folders present.
