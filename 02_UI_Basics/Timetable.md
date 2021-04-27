@@ -8,26 +8,26 @@
 
 ## Code Editor
 
-- [ ] Setting up VSCode
+- [x] Setting up VSCode
 - [ ] File directories
-- [ ] Extensions (live server, prettier)
+- [x] Extensions (live server, prettier)
 - [ ] Keyboard shortcuts
 - [ ] introducing emmet
 
 ## Examining the boilerplate
 
-- [ ] `<!DOCTYPE html>`
-- [ ] meta tags
-- [ ] Character set
-- [ ] `<html>` is the root element
-- [ ] `<head>`, `<body>`, `<title>`
+- [x] `<!DOCTYPE html>`
+- [x] meta tags
+- [x] Character set
+- [x] `<html>` is the root element
+- [x] `<head>`, `<body>`, `<title>`
 
 ## Up and Running
 
-- [ ] Anatomy of an element (opening tag, content, closing tag)
-- [ ] `<h1>` - [ ] `<h6>`, `<p>`
-- [ ] Running our file locally and globally
-- [ ] Commenting with `<!-- [comment] -->`
+- [x] Anatomy of an element (opening tag, content, closing tag)
+- [x] `<h1>` - [ ] `<h6>`, `<p>`
+- [x] Running our file locally and globally
+- [x] Commenting with `<!-- [comment] -->`
 - [ ] The importance of clean, indented code
 
 ---
@@ -37,27 +37,27 @@
 ## Introducing Style
 
 - [ ] History of Cascading Style Sheets
-- [ ] Writing CSS inline, internally and externally
-- [ ] Anatomy of a declaration (selector, declaration, property, value)
-- [ ] The `<link>` tag
-- [ ] Commenting with `\*[comment]*\`
+- [x] Writing CSS inline, internally and externally
+- [x] Anatomy of a declaration (selector, declaration, property, value)
+- [x] The `<link>` tag
+- [x] Commenting with `\*[comment]*\`
 
 ## Separation of Concerns - content and presentation
 
-- [ ] HTML is for content, CSS is for presentation
+- [x] HTML is for content, CSS is for presentation
   https://en.wikipedia.org/wiki/Separation_of_content_and_presentation
 
 ## Lists: Indentation and Family
 
-- [ ] `<ol>`, `<ul>`, `<li>`
+- [x] `<ol>`, `<ul>`, `<li>`
 - [ ] Changing presentation with `list-style-type`
 - [ ] Descendent combinator
 - [ ] Understanding nesting, parent - child relationship
 
 ## Classes and IDs
 
-- [ ] Targeting a unique element with the `id` attribute
-- [ ] Targeting a group of elements with the `class` attribute
+- [x] Targeting a unique element with the `id` attribute
+- [x] Targeting a group of elements with the `class` attribute
 
 ---
 
@@ -65,15 +65,15 @@
 
 ## Hyperlinks
 
-- [ ] Anchoring with `<a>`
-- [ ] linking pages
-- [ ] ID linking
-- [ ] web links
+- [x] Anchoring with `<a>`
+- [x] linking pages
+- [x] ID linking
+- [x] web links
 - [ ] Sending emails with `mailto:`
 
 ## Color in CSS
 
-- [ ] Using keywords, RGB, RGBA, hex
+- [x] Using keywords, RGB, RGBA, hex
 - [ ] Transparency and opacity
 - [ ] Combining multiple selectors with `,`
 - [ ] HSL, HSLA for self study
@@ -82,7 +82,7 @@
 
 - [ ] Introducing state pseudo class
 - [ ] Coloring links with `:hover`, `:active` and `:visited`
-- [ ] The importance of state in UI/UX - [ ] feedback and predictability
+- [ ] The importance of state in UI/UX - feedback and predictability
 - [ ] Using MDN to locate additional selectors, combinators, elements and rules
 
 ---
@@ -110,7 +110,7 @@
 - [ ] Introducing the `<img>` tag
 - [ ] Importance of the `alt` attribute
 - [ ] Absolute and Relative links
-- [ ] Framing our image with `border`
+- [x] Framing our image with `border`
 - [ ] Controlling corners with `border-radius`
 - [ ] `width` and `object-fit` to control the aspect-ratio
 - [ ] Image link by wrapping `<img>` with `<a>`
@@ -218,7 +218,7 @@
 ## Font Family
 - [ ] Different faces for different meanings:
   when to use - [ ] serif, sans-serif, monspace and cursive
-- [ ] Pre Installed System fonts: css `font-family: <font-name>`
+- [i] Pre Installed System fonts: css `font-family: <font-name>`
 - [ ] Providing fallbacks: font stack values for `font-family`
 - [ ] Getting more fonts: Google fonts and css `@import` directive
 
@@ -226,7 +226,7 @@
 # DAY 11
 
 ## Font Sizing:
-- [ ] Setting text size with `font-size`
+- [x] Setting text size with `font-size`
 - [ ] Relative to parent: `em` sizing and nesting
 - [ ] Relative to root: `rem` sizing and the `:root` selector
 - [ ] Setting the base size:
@@ -234,7 +234,7 @@
 
 ## Direction and Alignment
 - [ ] Writing text in RTL languages with `direction: rtl;`
-- [ ] Aligning text with `text-align`
+- [x] Aligning text with `text-align`
 - [ ] Centring text: comparison between `center` and `justify`
 
 ## Stylish Text
