@@ -203,9 +203,11 @@ div:last-child {
 * The [`~` sibling combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator)
 * Multiple selectors
 * Multiple elements in a selector
+* [Additional selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
+* [More combinators](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators)
 ---
 * Shortcuts when working in the Terminal
-*
+
 
 ## Bonus 1
 
