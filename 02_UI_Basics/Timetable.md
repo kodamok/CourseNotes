@@ -82,7 +82,7 @@
 
 - [ ] Introducing state pseudo class
 - [ ] Coloring links with `:hover`, `:active` and `:visited`
-- [ ] The importance of state in UI/UX - feedback and predictability
+- [ ] The importance of state in [UI/UX](https://givegoodux.com/use-5-principles-interaction-design-supercharge-ui-part-1-5/) - feedback and predictability
 - [ ] Using MDN to locate [additional selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors), [combinators](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators), [elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) and rules ([Overview of CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured))
 
 ---

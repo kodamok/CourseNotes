@@ -75,10 +75,11 @@ nav {
 ```
 ---
 
-26. Give some style to the `<a>` tags: `border` with the style `outset`, and  `width`
+26. Give some style to the `<a>` tags: `border` with the style `outset` and a `border-radius`, and  `width`
 ```css
 a {
   border: 0.2em #cba outset;
+  border-radius: 0.05em;
   width: 30%;
 }
 ```
