@@ -200,7 +200,7 @@ div:last-child {
 * Altering the appearance of a link
 * The [*specificity*](https://github.com/DigitalCareerInstitute/web-dev-v3-slides/blob/master/B_UI-Basics/02_Content/CSS%20Specificity%2C%20Inheritance%20and%20the%20Cascade.pdf) of selectors is important, so an earlier rule with a more specific selector can take precedence over a later one
 ---
-* The `~` sibling combinator
+* The [`~` sibling combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator)
 * Multiple selectors
 * Multiple elements in a selector
 ---
