@@ -93,7 +93,7 @@ a {
   display: inline-block;
 }
 ```
-29. Add a new rule with the `:hover` pseudo-class, to change the `border-color`, `border-style` and `background-color`
+29. Add a new rule with the `:hover` [pseudo class](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes), to change the `border-color`, `border-style` and `background-color`
 ```css
 a:hover {
   border-color: #a98;
