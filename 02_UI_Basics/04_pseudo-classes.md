@@ -243,4 +243,4 @@ nav {
 
 ## Bonus 3
 
-[Creating `alias`es for the Terminal](99_Productivity/bash/alias.md)
+[Creating `alias`es for the Terminal](https://github.com/FbW-E04-1/CourseNotes/blob/main/99_Productivity/bash/alias.md)
