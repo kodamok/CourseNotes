@@ -1,5 +1,7 @@
 # Create a Single Page Site with Menubar
 
+[Find your repositories here](https://classroom.github.com/a/RfgHLozF)
+
 1. Open VSCode
 2. Open the Terminal pane
 3. Use `cd` to navigate to the directory where you save your experiments
@@ -207,7 +209,8 @@ div:last-child {
 
 ## Bonus 1
 
-Prevent user from selecting link text; prevent the text from being draggable:
+Prevent user from selecting link text; prevent the text from being draggable.
+* Add two rules to the `a` selector:
 ```css
 a {
   /* ... */
@@ -218,5 +221,26 @@ a {
 ```
 
 ## Bonus 2
+
+Keep the menu buttons visible at all times.
+* Add two instruction to the rules for the `nav` selector:
+
+```css
+nav {
+  background-color: #dcb;
+  text-align: center;
+
+  position: sticky;
+  top: 0;
+}
+```
+* Add a new rule to prevent the `<h2>` tag from being hidden when you click a link:
+  ```
+  :target > h2 {
+    padding-top: 2em;
+  }
+  ```
+
+## Bonus 3
 
 [Creating `alias`es for the Terminal](99_Productivity/bash/alias.md)
