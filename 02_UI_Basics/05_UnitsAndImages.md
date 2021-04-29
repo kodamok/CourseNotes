@@ -38,7 +38,8 @@
 * [CSS Units](https://github.com/DCIForks/float-image)
 * [Using `em`](https://github.com/DCIForks/css-em)
 * [Percent](https://github.com/DCIForks/percent)
-* [Side-by-side Images](https://github.com/DCIForks/side-by-side)
+* [Side-by-side Images with `float`](https://github.com/DCIForks/side-by-side)
+* [Side-by-side Images with `inline-block`](https://github.com/DCIForks/inline-block)
 ---
 * [Image Basics](https://github.com/DCIForks/image-basics)
 * [Float Image](https://github.com/DCIForks/float-image)
