@@ -145,7 +145,10 @@ div {
 37. Click on each `<a>` link in turn, to see the effect
 ---
 **But what happens if you remove the #chunk from the address bar? All the `<div>` elements disappear.**
+
+<span id="target" > </span>
 38. Change the last two rules to include a second selector each:
+
 ```css
 div,
 :target ~ :last-child {
@@ -157,6 +160,7 @@ div:last-child {
   display: block;
 }
 ```
+
 39. The last rule says: "show the element with the same `id` as the [*fragment*](https://developer.mozilla.org/en-US/docs/Web/API/URL/hash) in the address bar, and the div that is last element in its parent group."
 40. The second-last rule says: "hide all divs, and the sibling of the element with the same `id` as the fragment in the address, if it is the last div in its parent group."
 41. The selector `:target ~ :last-child` has a higher *specificity* than `div:last-child`, so it takes precedence, even if it occurs earlier. The `:target` selector indicates an `id`, which the `div:last-child` element is lacking.
