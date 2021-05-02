@@ -138,9 +138,11 @@ The exercise below contains a number of `bash` functions. We will not be coverin
 
     # Alias to create a new web project, complete with
     # folders for css/, img/ and js/; empty style.css and
-    # script.js files, and a boilerplate index.html file
+    # script.js files, and a boilerplate index.html file,
+    # and to initialize it with git
     nwp (){
       mkcd "$1"
+      git init
       mkdir css img js
       touch css/styles.css js/script.js index.html
       code -r .
@@ -169,7 +171,7 @@ The exercise below contains a number of `bash` functions. We will not be coverin
     # inside a subfolder with today's date in YYMMDD format
     # Example: on 1 February 2003, the command...
     #
-    #   devtask flex
+    #   classtask flex
     #
     # ... will create a folder at the following location
     # with the following content:
@@ -181,7 +183,7 @@ The exercise below contains a number of `bash` functions. We will not be coverin
     #                       └── js
     #                           └── script.js
 
-    devtask () {
+    classtask () {
         dir=~
         dir=$dir"DCITasks/" # customize this directory path
         day=$(date +'%y%m%d')
