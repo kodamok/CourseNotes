@@ -81,8 +81,8 @@ The exercise below contains a number of `bash` functions. We will not be coverin
 7.  You can also create functions that you can call from anywhere. Functions can take parameters. The following `mkcd` function combines a `mkdir` command with a `cd`-into-the-new-directory command. The name of the directory to create is passed as a parameter, exactly like for the `mkdir`command.
 
     ```bash
-    # Create a new directory then cd into it. Note th
-    #e use of -- to indicate the end of the flags, so
+    # Create a new directory then cd into it. Note the
+    # use of -- to indicate the end of the flags, so
     # that you can create a directory whose name starts
     # with a hyphen, and the directory name will not be
     # treated as a flag.

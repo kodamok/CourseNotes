@@ -35,15 +35,15 @@
 
 # Repositories
 
-* [CSS Units](https://github.com/DCIForks/float-image)
-* [Using `em`](https://github.com/DCIForks/css-em)
-* [Percent](https://github.com/DCIForks/percent)
-* [Side-by-side Images with `float`](https://github.com/DCIForks/side-by-side)
-* [Side-by-side Images with `inline-block`](https://github.com/DCIForks/inline-block)
+* [CSS Units](https://dciforks.github.io/css-units/) ([repo](https://github.com/DCIForks/css-units/))
+* [Using `em`](https://dciforks.github.io/css-em/) ([repo](https://github.com/DCIForks/css-em))
+* [Percent](https://dciforks.github.io/percent/) ([repo](https://github.com/DCIForks/percent))
 ---
-* [Image Basics](https://github.com/DCIForks/image-basics)
-* [Float Image](https://github.com/DCIForks/float-image)
-
+* [Image Basics](https://dciforks.github.io/image-basics/) ([repo](https://github.com/DCIForks/image-basics))
+* [Float Image](https://dciforks.github.io/float-image/) ([repo](https://github.com/DCIForks/float-image))
+* [Side-by-side `div`s with `float`](https://dciforks.github.io/side-by-side/) ([repo](https://github.com/DCIForks/side-by-side))
+* [Side-by-side `div`s with `inline-block`](https://dciforks.github.io/inline-block/) ([repo](https://github.com/DCIForks/inline-block))
+Q
 # Assignment
 [Image Viewer Repository](https://classroom.github.com/a/ZbcBUSVS)
 

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Making &grave;alias&grave; commands for the Terminal</title>
+        <style>
+</style>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        
+        <script src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
+        
+    </head>
+    <body class="vscode-body vscode-light">
+        <h1 id="making-alias-commands-for-the-terminal">Making <code>alias</code> commands for the Terminal</h1>
+<p><a href="https://linuxize.com/post/how-to-create-bash-aliases/">Tutorial</a></p>
+<p>An alias is a shortcut that you can use in the Terminal window for commands that you use often.</p>
+<p>You have already seen the <code>ll</code> alias for <code>ls -alF</code>.</p>
+<p>Aliases are stored in a hidden <code>.bashrc</code> file in your Home directory. Open this file in VS Code, and skim through its contents:</p>
+<pre><code class="language-bash"><div>code ~/.bashrc
+</div></code></pre>
+<p>You will see that it contains standard settings for the way the Terminal window should behave. To create new aliases, you will need to edit this file. Around line 90, you might find a section like this:</p>
+<pre><code class="language-bash"><div><span class="hljs-comment"># some more ls aliases</span>
+<span class="hljs-built_in">alias</span> ll=<span class="hljs-string">&#x27;ls -alF&#x27;</span>
+<span class="hljs-built_in">alias</span> la=<span class="hljs-string">&#x27;ls -A&#x27;</span>
+<span class="hljs-built_in">alias</span> l=<span class="hljs-string">&#x27;ls -CF&#x27;</span>
+</div></code></pre>
+<p>This is where the <code>ll</code> alias is defined. You can use <code>man ls</code> to see what the -A, -C and -F flags do.</p>
+<h2 id="note">Note</h2>
+<p>The exercise below contains a couple of <code>bash</code> functions. We will not be covering <code>bash</code> scripting in the Web Development course, but you can use the functions as-is. If you have an idea for an alias that will require a function then you can send a direct message to @James on Slack.</p>
+<hr>
+<h2 id="exercise">Exercise</h2>
+<p><strong>Customize your <code>.bashrc</code> file, so that it you can use aliases to speed up your development process.</strong></p>
+<ol>
+<li>
+<p>Run the command <code>code ~/.bashrc</code></p>
+</li>
+<li>
+<p>Scroll to the end</p>
+</li>
+<li>
+<p>Insert an alias to open this file automatically, for when you want to add a new alias:</p>
+<pre><code class="language-bash"><div><span class="hljs-comment">####### ADD CUSTOM alias COMMANDS BELOW THIS LINE #######</span>
+
+<span class="hljs-comment"># Shortcut to open this file in an editor window</span>
+<span class="hljs-built_in">alias</span> addalias=<span class="hljs-string">&#x27;code ~/.bashrc&#x27;</span>
+
+<span class="hljs-comment"># The items in this .bashrc file are loaded once</span>
+<span class="hljs-comment"># when you log on. To use your new aliases</span>
+<span class="hljs-comment"># immediately, you need to run `source ~/.bashrc`</span>
+<span class="hljs-comment"># in the Terminal to reload this file. Here&#x27;s an</span>
+<span class="hljs-comment"># alias that is easier to remember:</span>
+<span class="hljs-built_in">alias</span> usenew=<span class="hljs-string">&#x27;source ~/.bashrc&#x27;</span>
+</div></code></pre>
+<p>Note that your new aliases will not automatically become available until you start a new Terminal session. However, you can refresh your source of aliases by typing the following in the Terminal window:</p>
+<pre><code class="language-bash"><div><span class="hljs-built_in">source</span> ~/.bashrc
+</div></code></pre>
+<p>This will also activate the new <code>usenew</code> alias, so in the future you will not have to remember the <code>source ~/.bashrc</code> command. But you will have to use it this first time, because the <code>usenew</code> will not work until you do so.</p>
+</li>
+<li>
+<p>The shortcut <code>git commit -am</code> is of limited use. It will not add <em>new</em> files to the staging area, and it will not let you use VS Code to create the commit message. And it is also quite a long command to type.</p>
+<p>You can create an alias for a command that will tell git to automatically add all changed files to the staging area, and then prepare a commit message in the VS Code editor.<br><br>On a new line below the lines that you have just added, insert a new alias:</p>
+<pre><code class="language-bash"><div><span class="hljs-comment"># Automatically add all changed files and open an</span>
+<span class="hljs-comment"># editor for the commit message. Note the use of</span>
+<span class="hljs-comment">#the semi-colon (;) to enter two commands on one</span>
+<span class="hljs-comment"># line.</span>
+<span class="hljs-built_in">alias</span> gmit=<span class="hljs-string">&#x27;git add .;git commit&#x27;</span>
+</div></code></pre>
+<p>Note that it is useful:</p>
+<ul>
+<li>To use a name that is meaningful. This is a shortcut for a command that starts with <strong>g</strong>it and ends with com<strong>mit</strong>. (You can choose your own alias name if you have a better idea).</li>
+<li>To include a comment to explain what your alias does, so that you can remind yourself about it later.</li>
+</ul>
+</li>
+<li>
+<p>Save your <code>.bashrc</code> file and run <code>usenew</code>, then open a git repository make a change and test that <code>gmit</code> does indeed add all changes to the staging area and open a COMMIT_EDITMSG file in the editor pane. Note that if you cancel the commit, by closing the COMMIT_EDITMSG file without adding any text, the <code>git add .</code> will still have been executed.</p>
+</li>
+<li>
+<p>Create an alias that will <code>cd</code> to the directory that contains your <code>.git</code> folder, at the root of your project.</p>
+<pre><code class="language-bash"><div><span class="hljs-comment"># cd to the top-level directory of the current git</span>
+<span class="hljs-comment"># project (where the .git folder is stored)</span>
+<span class="hljs-built_in">alias</span> gd=<span class="hljs-string">&#x27;cd $(git rev-parse --show-toplevel)&#x27;</span>
+</div></code></pre>
+</li>
+<li>
+<p>You can also create functions that you can call from anywhere. Functions can take parameters. The following <code>mkcd</code> function combines a <code>mkdir</code> command with a <code>cd</code>-into-the-new-directory command. The name of the directory to create is passed as a parameter, exactly like for the <code>mkdir</code>command.</p>
+<pre><code class="language-bash"><div><span class="hljs-comment"># Create a new directory then cd into it. Note th</span>
+<span class="hljs-comment">#e use of -- to indicate the end of the flags, so</span>
+<span class="hljs-comment"># that you can create a directory whose name starts</span>
+<span class="hljs-comment"># with a hyphen, and the directory name will not be</span>
+<span class="hljs-comment"># treated as a flag.</span>
+<span class="hljs-function"><span class="hljs-title">mkcd</span></span> () {
+  mkdir -p -- <span class="hljs-string">&quot;<span class="hljs-variable">$1</span>&quot;</span> &amp;&amp; <span class="hljs-built_in">cd</span> -P -- <span class="hljs-string">&quot;<span class="hljs-variable">$1</span>&quot;</span>
+}
+</div></code></pre>
+</li>
+<li>
+<p>Here's a function that can be useful when debugging a Git project. If you run <code>gits</code> from inside a project directory, it will output the path to the root folder, where the invisible <code>.git</code> directory is stored. If you have, by mistake, created your project inside another directory that is already part of another Git project, it will warn you that you have multiple <code>.git</code> folders present.</p>
+<pre><code class="language-bash"><div><span class="hljs-comment"># Use the gits function to echo the location of all</span>
+<span class="hljs-comment"># .git directories in the working directory or any</span>
+<span class="hljs-comment"># of its parent directories. If more than one .git</span>
+<span class="hljs-comment"># directory is found, you will need to correct this</span>
+<span class="hljs-comment"># error.</span>
+<span class="hljs-function"><span class="hljs-title">gits</span></span> () {
+    found=0     <span class="hljs-comment"># count the number of times a .git directory is found</span>
+    folder=.git <span class="hljs-comment"># folder to look for</span>
+    path=$(<span class="hljs-built_in">pwd</span>) <span class="hljs-comment"># start from the current working directory</span>
+
+    <span class="hljs-keyword">while</span> [[ <span class="hljs-string">&quot;<span class="hljs-variable">$path</span>&quot;</span> != <span class="hljs-string">&quot;&quot;</span> ]]; <span class="hljs-keyword">do</span>
+        <span class="hljs-keyword">if</span> [ -e <span class="hljs-string">&quot;<span class="hljs-variable">$path</span>/<span class="hljs-variable">$folder</span>&quot;</span> ]
+        <span class="hljs-keyword">then</span>
+            <span class="hljs-comment"># There is a .git folder in the directory defined by $path</span>
+            <span class="hljs-built_in">let</span> found+=1
+            <span class="hljs-built_in">echo</span> <span class="hljs-variable">$folder</span> folder found at <span class="hljs-variable">$path</span>
+        <span class="hljs-keyword">fi</span>
+        path=<span class="hljs-variable">${path%/*}</span> <span class="hljs-comment"># remove the last directory name from $path</span>
+    <span class="hljs-keyword">done</span>
+
+    <span class="hljs-keyword">if</span> [ <span class="hljs-variable">$found</span> -eq 0 ]
+    <span class="hljs-keyword">then</span>
+        <span class="hljs-built_in">echo</span> No <span class="hljs-variable">$folder</span> folder found
+    <span class="hljs-keyword">elif</span> [ <span class="hljs-variable">$found</span> -gt 1 ]
+    <span class="hljs-keyword">then</span>
+        <span class="hljs-built_in">echo</span> <span class="hljs-variable">$found</span> <span class="hljs-variable">$folder</span> folders found. Please correct this.
+    <span class="hljs-keyword">fi</span>
+}
+</div></code></pre>
+</li>
+<li>
+<p>Here are some more useful functions:</p>
+<ul>
+<li><code>cdcode &lt;absolute/or/relative/path&gt;</code> to switch to a different project in the same window</li>
+<li><code>nwp</code> to create a new web project with the basic folders and files</li>
+<li><code>devtask</code> to create a new web project in a specific task folder with today's date</li>
+<li><code>uconfig</code> to open the hidden directory where VS Code stores your user-defined configuration files</li>
+</ul>
+<pre><code class="language-bash"><div><span class="hljs-comment"># Alias to switch to a different folder in the current</span>
+<span class="hljs-comment"># window</span>
+<span class="hljs-function"><span class="hljs-title">gocode</span></span> () {
+  <span class="hljs-built_in">cd</span> <span class="hljs-string">&quot;<span class="hljs-variable">$1</span>&quot;</span>
+  code -r .
+}
+
+<span class="hljs-comment"># Alias to create a new web project, complete with</span>
+<span class="hljs-comment"># folders for css/, img/ and js/; empty style.css and</span>
+<span class="hljs-comment"># script.js files, and a boilerplate index.html file</span>
+<span class="hljs-function"><span class="hljs-title">nwp</span></span> (){
+  mkcd <span class="hljs-string">&quot;<span class="hljs-variable">$1</span>&quot;</span>
+  mkdir css img js
+  touch css/styles.css js/script.js index.html
+  code -r .
+  code css/styles.css
+  code js/script.js
+  cat &lt;&lt; EOF &gt;&gt; ./index.html
+&lt;!DOCTYPE html&gt;
+&lt;html lang=<span class="hljs-string">&quot;en&quot;</span>&gt;
+&lt;head&gt;
+    &lt;meta charset=<span class="hljs-string">&quot;UTF-8&quot;</span>&gt;
+    &lt;title&gt;Title&lt;/title&gt;
+    &lt;link rel=<span class="hljs-string">&quot;stylesheet&quot;</span> href=<span class="hljs-string">&quot;css/styles.css&quot;</span>&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+
+    &lt;script src=<span class="hljs-string">&quot;js/script.js&quot;</span>&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+EOF
+  code index.html
+}
+
+<span class="hljs-comment"># Alias to create a new web project in a specific folder</span>
+<span class="hljs-comment"># inside a subfolder with today&#x27;s date in YYMMDD format</span>
+<span class="hljs-comment"># Example: on 1 February 2003, the command...</span>
+<span class="hljs-comment">#</span>
+<span class="hljs-comment">#   devtask flex</span>
+<span class="hljs-comment">#</span>
+<span class="hljs-comment"># ... will create a folder at the following location</span>
+<span class="hljs-comment"># with the following content:</span>
+<span class="hljs-comment"># ~/DCITasks/030201/flex.</span>
+<span class="hljs-comment">#                       ├── css</span>
+<span class="hljs-comment">#                       │   └── styles.css</span>
+<span class="hljs-comment">#                       ├── img</span>
+<span class="hljs-comment">#                       ├── index.html</span>
+<span class="hljs-comment">#                       └── js</span>
+<span class="hljs-comment">#                           └── script.js</span>
+
+<span class="hljs-function"><span class="hljs-title">devtask</span></span> () {
+    dir=~
+    dir=<span class="hljs-variable">$dir</span><span class="hljs-string">&quot;DCITasks/&quot;</span> <span class="hljs-comment"># customize this directory path</span>
+    day=$(date +<span class="hljs-string">&#x27;%y%m%d&#x27;</span>)
+    mkcd <span class="hljs-string">&quot;<span class="hljs-variable">$dir</span><span class="hljs-variable">$day</span>&quot;</span>
+    nwp <span class="hljs-string">&quot;<span class="hljs-variable">$1</span>&quot;</span>
+}
+
+<span class="hljs-comment"># Shortcut to open a new window showing the directory</span>
+<span class="hljs-comment"># containing user settings</span>
+<span class="hljs-built_in">alias</span> uconfig=<span class="hljs-string">&#x27;code ~/.config/Code/User/&#x27;</span>
+</div></code></pre>
+</li>
+</ol>
+<h2 id="share-your-aliases">Share your <code>alias</code>es</h2>
+<p>If you create new <code>alias</code>es that you think others will find useful, please fork this repository and create a Pull Request to add your contributions to the (visible) <code>bashrc</code> file in the same folder as this article. Thanks in advance!</p>
+
+    </body>
+    </html>
