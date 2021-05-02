@@ -1,0 +1,130 @@
+
+
+
+
+####### ADD CUSTOM alias COMMANDS BELOW THIS LINE #######
+
+# Shortcut to open this file in an editor window
+alias addalias='code ~/.bashrc'
+
+# The items in this .bashrc file are loaded once when you
+# log on. To use your new aliases immediately, you need
+# to run `source ~/.bashrc` in the Terminal to reload
+# this file. Here's an alias that is easier to remember:
+alias usenew='source ~/.bashrc'
+
+# Automatically add all changed files and open an editor
+# for the commit message. Note the use of the semi-colon
+# (;) to enter two commands on one line.
+alias gmit='git add .;git commit'
+
+# cd to the top-level directory of the current git
+# project (where the .git folder is stored)
+alias gd='cd $(git rev-parse --show-toplevel)'
+
+# Create a new directory then cd into it. Note the use
+# of -- to indicate the end of the flags, so that you
+# can create a directory whose name starts with a
+# hyphen, and the directory name will not be treated as
+# a flag.
+mkcd () {
+  mkdir -p -- "$1" && cd -P -- "$1"
+}
+
+# Use the gits function to echo the location of all .git
+# directories in the working directory or any of its
+# parent directories. If more than one .git directory is
+# found, you will need to correct this error.
+gits () {
+    found=0     # count the number of times a .git directory is found
+    folder=.git # folder to look for
+    path=$(pwd) # start from the current working directory
+
+    while [[ "$path" != "" ]]; do
+        if [ -e "$path/$folder" ]
+        then
+            # There is a .git folder in the directory defined by $path
+            let found+=1
+            echo $folder folder found at $path
+        fi
+        path=${path%/*} # remove the last directory name from $path
+    done
+
+    if [ $found -eq 0 ]
+    then
+        echo No $folder folder found
+    elif [ $found -gt 1 ]
+    then
+        echo $found $folder folders found. Please correct this.
+    fi
+}
+
+# cd into a directory at `~/DCITasks/YYMMDD/`, where YYMMDD
+# represents today's date (create the director if necessary)
+alias cdtasks='day=$(date +'%y%m%d');dir=~;dir="$dir/DCITasks/$day";mkdir -p "$dir";cd "$dir";tree -L 1'
+
+# Alias to open a new window showing the directory
+# containing user settings for VS Code
+alias uconfig='code ~/.config/Code/User/'
+
+# Alias to switch to a different folder in the current window
+gocode () {
+  cd "$1"
+  code -r .
+}
+
+# Alias to create a new web project, complete with
+# folders for css/, img/ and js/; empty style.css and
+# script.js files, and a boilerplate index.html file,
+# and to initialize it with git
+nwp () {
+  mkcd "$1"
+  git init
+  mkdir css img js
+  touch css/styles.css js/script.js index.html
+  code -r .
+  code css/styles.css
+  code js/script.js
+  cat << EOF >> ./index.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body>
+
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
+EOF
+  code index.html
+}
+
+# Alias to create a new web project in a specific folder
+# inside a subfolder with today's date in YYMMDD format
+# Example: on 1 February 2003, the command...
+#
+#   classtask flexbox
+#
+# ... will create a folder at the following location
+# with the following content:
+# ~/DCITasks/030201/flex.
+#                       ├── .git
+#                       ├── css
+#                       │   └── styles.css
+#                       ├── img
+#                       ├── index.html
+#                       └── js
+#                           └── script.js
+
+classtask () {
+  dir=~
+  dir=$dir"/DCITasks/" # customize this directory path
+  day=$(date +'%y%m%d')
+  mkcd "$dir$day"
+  nwp "$1"
+}
