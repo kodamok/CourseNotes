@@ -176,6 +176,7 @@ The exercise below contains a number of `bash` functions. We will not be coverin
     # ... will create a folder at the following location
     # with the following content:
     # ~/DCITasks/030201/flex.
+    #                       ├── .git
     #                       ├── css
     #                       │   └── styles.css
     #                       ├── img
