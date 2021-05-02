@@ -1,34 +1,34 @@
 # The Program for Today
 
-## CSS units
+## [CSS units](https://dciforks.github.io/css-units/)
 
 [w3schools](https://www.w3schools.com/cssref/css_units.asp)
 [MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
 
 
-- [ ] `px` and `%`
-- [ ] `em` vs [`rem`](https://www.sitepoint.com/understanding-and-using-rem-units-in-css/)
-- [ ] `vh` and `vw`
-- [ ] [font-size](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size)
+- [x] `px` and `%` ([demo of %](https://dciforks.github.io/percent/))
+- [x] `em` vs [`rem`](https://www.sitepoint.com/understanding-and-using-rem-units-in-css/)
+- [x] `vh` and `vw`
+- [x] [font-size](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size) ([demo](https://dciforks.github.io/css-em/))
 - [ ] [use cases for the different units](https://kyleschaeffer.com/css-font-size-em-vs-px-vs-pt-vs-percent#:~:text=%E2%80%9CEms%E2%80%9D%20(em)%3A%20The,5em%20would%20equal%206pt%2C%20etc.)
 
 ## Debugging with dev tools
 
 - [ ] Debugging our CSS
 - [ ] Quick intro to the DOM tree
-- [ ] Modifying values
+- [x] Modifying values
 - [ ] https://developers.google.com/web/tools/chrome-devtools/css https://developers.google.com/web/tools/chrome-devtools/css/reference
 
 ## Using Images
 
-- [ ] Introducing the [`<img>` tag](https://www.w3schools.com/html/html_images.asp)
-- [ ] Importance of the `alt` attribute
-- [ ] Absolute and Relative links
+- [x] Introducing the [`<img>` tag](https://www.w3schools.com/html/html_images.asp)
+- [x] Importance of the `alt` attribute
+- [x] Absolute and Relative links
 - [x] Framing our image with `border`
-- [ ] Controlling corners with `border-radius`
-- [ ] `width` and [`object-fit` property](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit) to control the aspect-ratio
-- [ ] Image link by wrapping `<img>` with `<a>`
-- [ ] using float (strictly with image and text)
+- [x] Controlling corners with `border-radius`
+- [ ] [`width`](https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/) and [`object-fit` property](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit) to control the aspect-ratio
+- [x] Image link by wrapping `<img>` with `<a>`
+- [x] using float (strictly with image and text)
 - [ ] Quick intro to Gimp for image manipulation
   https://www.gimp.org/
 
