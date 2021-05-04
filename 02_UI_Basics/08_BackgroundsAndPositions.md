@@ -127,7 +127,25 @@
 - [ ] [Linear](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient()) and [radial](https://developer.mozilla.org/en-US/docs/Web/CSS/radial-gradient()) gradients
 * [Gradient Maker](https://cssgradient.io/)
 
-# Exercise
+---
+
+# [Exercise](https://classroom.github.com/a/pxy7sGPt)
+1. Create a new folder for your project
+2. Add subfolders called `css` and  `img`
+3. Create an `index.html` page with some (dummy) text in a `<main>` element
+4. Find a [seamless pattern](https://pixabay.com/images/search/seamless%20pattern/) that you like, and download it into your `img/` folder
+5. Use the repeating pattern to fill the background of your `<main>` element
+6. Find an image with a transparent background (PNG, WEBP) and place it strategically in your background
+7. Choose whether to make it scroll or fixed
+
+# Install GIMP
+
+```bash
+sudo apt update
+sudo apt install snapd
+sudo snap install gimp
+```
+
 
 # Shadows
 - [ ] Box shadow
