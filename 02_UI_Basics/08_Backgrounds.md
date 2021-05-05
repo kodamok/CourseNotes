@@ -34,7 +34,7 @@
 - [ ] background-size ([w3schools](https://www.w3schools.com/cssref/css3_pr_background-size.asp), [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size))
 - [ ] background-repeat ([w3schools](https://www.w3schools.com/css/css_background_repeat.asp), [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat))
 - [ ] background-origin ([w3schools](https://www.w3schools.com/cssref/css3_pr_background-origin.asp), [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-origin))
-- [ ] background-clip ([w3schools](), [MDN]([clip](https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip)))
+- [ ] background-clip ([w3schools](https://www.w3schools.com/cssref/css3_pr_background-clip.asp), [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip))
 - [ ] background-attachment ([w3schools](https://www.w3schools.com/css/css_background_attachment.asp), [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment))
 <br><br>
 - [ ] background-blend-mode ([w3schools](https://www.w3schools.com/cssref/pr_background-blend-mode.asp), [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode))
