@@ -126,6 +126,8 @@
 ## Gradients
 - [ ] [Linear](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient()) and [radial](https://developer.mozilla.org/en-US/docs/Web/CSS/radial-gradient()) gradients
 * [Gradient Maker](https://cssgradient.io/)
+* [w3schools](https://www.w3schools.com/css/css3_gradients.asp)
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient())
 
 ---
 
@@ -151,3 +153,7 @@ sudo snap install gimp
 * [Sweet Spot](https://github.com/FbW-E04-1/UIB-box-model-the-sweet-spot)
 * [Background Patterns](https://github.com/FbW-E04-1/UIB-box-model-background-patterns)]
 * [Travel Page](https://github.com/FbW-E04-1/UIB-box-model-travel-page)
+
+# Resources
+
+[Shadows and Backgrounds (PDF)](https://github.com/DigitalCareerInstitute/web-dev-v3-slides/blob/master/B_UI-Basics/03_Box-Model/Box_Model_Part_II.pdf)
