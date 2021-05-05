@@ -21,11 +21,7 @@
  - [ ] `<span>`
  - [ ] `<ul>`
 
-<div style="background-color:white;">
-<p style="color:black;font-weight:bold;">Answer:
-<span style="color:white;font-weight:normal;">&lt;a&gt;, &lt;img&gt; and &lt;span&gt; are <code>inline</code> by default. All the others are <code>block</code> by default.
-</p>
-</div>
+
 
 
 [HTML Block and Inline Elements](https://www.w3schools.com/html/html_blocks.asp)
