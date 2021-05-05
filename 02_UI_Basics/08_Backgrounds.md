@@ -51,7 +51,7 @@
 
 ---
 
-# [Practice](https://classroom.github.com/a/1Kl55m1V)
+# [Practice](https://classroom.github.com/assignment-invitations/5fc923c3005d043c0980fbd8d6b57110)
 1. Create a new folder for your project
 2. Add subfolders called `css` and  `img`
 3. Create an `index.html` page with some (dummy) text in a `<main>` element
