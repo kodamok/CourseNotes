@@ -83,6 +83,9 @@
 ## Images
 
 - [ ] `background-image` is for decoration not content
+    * [Use cases](https://stackoverflow.com/a/1469139)
+    * If I completely removed the stylesheets from the website, would the remaining elements only belong to the content? If so, I did my job well.
+    [viam0Zah](https://stackoverflow.com/a/769189)
 - [ ] `background-size`
    * contain
    * cover
@@ -126,7 +129,7 @@
 
 ---
 
-# [Exercise](https://classroom.github.com/a/pxy7sGPt)
+# [Practice](https://classroom.github.com/a/pxy7sGPt)
 1. Create a new folder for your project
 2. Add subfolders called `css` and  `img`
 3. Create an `index.html` page with some (dummy) text in a `<main>` element
@@ -143,13 +146,8 @@ sudo apt install snapd
 sudo snap install gimp
 ```
 
-
-# Shadows
-- [ ] Box shadow
-- [ ] Text shadow
-
-
-# Position
-- [ ] Understanding positioning - static, relative, absolute, fixed, sticky
-- [ ] Position offsets - top, bottom, right, left
-- [ ] Layering boxes with z-index
+# Exercises
+* [Background Images](https://github.com/FbW-E04-1/UIB-boxmodel-backgroundimages)
+* [Sweet Spot](https://github.com/FbW-E04-1/UIB-box-model-the-sweet-spot)
+* [Background Patterns](https://github.com/FbW-E04-1/UIB-box-model-background-patterns)]
+* [Travel Page](https://github.com/FbW-E04-1/UIB-box-model-travel-page)
