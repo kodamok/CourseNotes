@@ -1,5 +1,10 @@
 # Backgrounds
 
+## Lorem ipsum with Emmet
+
+* [Repeated Lorem ipsum](https://docs.emmet.io/abbreviations/lorem-ipsum/#repeated-lorem-ipsum)
+* `p*>4lorem100` produces 4 paragraphs of dummy text, each with 100 words.
+
 ## Images
 
 - [ ] `background-image` is for decoration not content
