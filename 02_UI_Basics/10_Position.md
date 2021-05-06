@@ -1,3 +1,12 @@
+# Recap
+* [Photo Corners](https://dciforks.github.io/limited-repeat/#corners)
+* [Frame](https://dciforks.github.io/limited-repeat/#frame)
+* [Repo](https://github.com/DCIForks/limited-repeat)
+---
+* [Horizon](https://dciforks.github.io/absolute-horizon/)
+* [Repo](https://github.com/DCIForks/absolute-horizon)
+
+Note that the Horizon header makes use of `position: absolute` to place the seagulls over the `h1` text.
 
 
 
