@@ -43,3 +43,7 @@ Note that the Horizon header makes use of `position: absolute` to place the seag
 
 * [Make a menu slide out when needed](https://dciforks.github.io/nav-menu-2/)
 * [Repo](https://github.com/DCIForks/nav-menu-2)
+
+
+# [Check Up](https://github.com/FbW-E04-1/CourseNotes/issues/1)
+Discussion on which topics need to be reviewed before we start the next module.
