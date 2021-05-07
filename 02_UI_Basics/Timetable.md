@@ -86,7 +86,7 @@
 - [x] `<ol>`, `<ul>`, `<li>`
 - [ ] [Changing presentation with `list-style-type`](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type) ([Try It Yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_list-style-type_ex))
 - [ ] [Descendent combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator) ([More combinators](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators))
-- [ ] [Understanding nesting, parent - child relationship](../../blob/main/02_UI_Basics/Timetable.md)
+- [ ] [Understanding nesting, parent - child relationship](../../main/02_UI_Basics/NestingTags.md)
 
 ## Classes and IDs
 
@@ -125,16 +125,17 @@
 ## CSS units
 
 - [x] `px` and `%`
-- [ ] `em` vs `rem`
-- [ ] `vh` and `vw`
-- [ ] use cases for the different units
+- [ ] [`em` vs `rem`](https://www.digitalocean.com/community/tutorials/css-rem-vs-em-units)
+- [ ] [`vh` and `vw`](https://www.hongkiat.com/blog/css-viewport-units-vw-vh-wmin-vmax/)
+- [ ] [use cases for the different units](https://www.digitalocean.com/community/tutorials/css-css-units-explained) ([Video tutorial](https://www.youtube.com/watch?v=fi81bovqxXI))
 
 ## Debugging with dev tools
 
 - [x] Debugging our CSS
-- [ ] Quick intro to the DOM tree
+- [ ] [Quick intro to the DOM tree](https://developer.chrome.com/docs/devtools/dom/)
 - [x] Modifying values
-- [ ] https://developers.google.com/web/tools/chrome-devtools/css https://developers.google.com/web/tools/chrome-devtools/css/reference
+- [ ] [View and Change CSS](https://developers.google.com/web/tools/chrome-devtools/css)
+- [ ] [CSS features reference](https://developers.google.com/web/tools/chrome-devtools/css/reference)
 
 ---
 # DAY 5
@@ -143,7 +144,7 @@
 
 - [x] Introducing the `<img>` tag
 - [x] Importance of the `alt` attribute
-- [ ] Absolute and Relative links
+- [ ] [Absolute and Relative links](https://www.webstix.com/knowledgebase/general/relative-links-vs-absolute-links/)
 - [x] Framing our image with `border`
 - [x] Controlling corners with `border-radius`
 - [ ] `width` and `object-fit` to control the aspect-ratio
