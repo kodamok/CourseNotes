@@ -33,7 +33,7 @@
 
 # DAY 2
 
-## Introducing Style# DAY 1
+## Introducing Style
 
 ## *Intro*
 - [ ] *History of HTML*
@@ -151,6 +151,7 @@
 - [ ] `width` and `object-fit` to control the aspect-ratio
 - [ ] Image link by wrapping `<img>` with `<a>`
 - [ ] [using float (strictly with image and text)](https://css-tricks.com/all-about-floats/)
+* [Repo](https://github.com/DCIForks/float-image) and [Demo](https://dciforks.github.io/float-image/)
 - [ ] Quick intro to [Gimp](https://www.gimp.org/) for image manipulation
 
 
