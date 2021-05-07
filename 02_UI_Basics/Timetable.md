@@ -141,7 +141,7 @@
 
 ## Using Images
 
-- [Demo repo](https://github.com/DCIForks/image-basics) and [Preview](https://dciforks.github.io/image-basics/)
+- [Repo to demonstrate different features of the `<img>` tag](https://github.com/DCIForks/image-basics) and [Preview](https://dciforks.github.io/image-basics/)
 - [x] Introducing the `<img>` tag
 - [x] Importance of the `alt` attribute
 - [ ] [Absolute and Relative links](https://www.webstix.com/knowledgebase/general/relative-links-vs-absolute-links/)
@@ -150,7 +150,7 @@
 - [ ] `width` and `object-fit` to control the aspect-ratio
 - [ ] Image link by wrapping `<img>` with `<a>`
 - [ ] [using float (strictly with image and text)](https://css-tricks.com/all-about-floats/)
-* [Repo](https://github.com/DCIForks/float-image) and [Demo](https://dciforks.github.io/float-image/)
+* [Repo to demonstrate float](https://github.com/DCIForks/float-image) and [Preview](https://dciforks.github.io/float-image/)
 - [ ] Quick intro to [Gimp](https://www.gimp.org/) for image manipulation
 
 
