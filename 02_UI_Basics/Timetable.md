@@ -86,7 +86,7 @@
 - [x] `<ol>`, `<ul>`, `<li>`
 - [ ] [Changing presentation with `list-style-type`](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type) ([Try It Yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_list-style-type_ex))
 - [ ] [Descendent combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator) ([More combinators](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators))
-- [ ] [Understanding nesting, parent - child relationship](../../blob/main/02_UI_Basics/NestingTags.md)
+- [ ] [Understanding nesting, parent - child relationship](../../main/02_UI_Basics/NestingTags.md)
 
 ## Classes and IDs
 
