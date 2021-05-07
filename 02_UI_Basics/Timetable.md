@@ -1,9 +1,9 @@
 # DAY 1
 
-## Intro
-- [ ] History of HTML
-- [ ] HTML document and the browser
-- [ ] Defining the user
+## *Intro*
+- [ ] *History of HTML*
+- [ ] *HTML document and the browser*
+- [ ] *Defining the user*
 
 ## Code Editor
 
@@ -35,10 +35,10 @@
 
 ## Introducing Style# DAY 1
 
-## Intro
-- [ ] History of HTML
-- [ ] HTML document and the browser
-- [ ] Defining the user
+## *Intro*
+- [ ] *History of HTML*
+- [ ] *HTML document and the browser*
+- [ ] *Defining the user*
 
 ## Code Editor
 
@@ -70,7 +70,7 @@
 
 ## Introducing Style
 
-- [ ] History of Cascading Style Sheets
+- [ ] *History of Cascading Style Sheets*
 - [x] Writing CSS inline, internally and externally
 - [x] Anatomy of a declaration (selector, declaration, property, value)
 - [x] The `<link>` tag
@@ -142,6 +142,7 @@
 
 ## Using Images
 
+- [Demo repo](https://github.com/DCIForks/image-basics) and [Preview](https://dciforks.github.io/image-basics/)
 - [x] Introducing the `<img>` tag
 - [x] Importance of the `alt` attribute
 - [ ] [Absolute and Relative links](https://www.webstix.com/knowledgebase/general/relative-links-vs-absolute-links/)
@@ -149,34 +150,33 @@
 - [x] Controlling corners with `border-radius`
 - [ ] `width` and `object-fit` to control the aspect-ratio
 - [ ] Image link by wrapping `<img>` with `<a>`
-- [ ] using float (strictly with image and text)
-- [ ] Quick intro to Gimp for image manipulation
-  https://www.gimp.org/
+- [ ] [using float (strictly with image and text)](https://css-tricks.com/all-about-floats/)
+- [ ] Quick intro to [Gimp](https://www.gimp.org/) for image manipulation
+
 
 ---
 # DAY 6
 
-## The importance of accessibility
+## *The importance of accessibility*
 
-- [ ] provide equal access and equal opportunity to people with disabilities
-- [ ] Always use the `<title>` tag and `alt` attribute for images
-- [ ] What`s a screen reader?
-- [ ] using the `aria-label` attribute
-- [ ] Google Lighthouse
-  https://developers.google.com/web/tools/lighthouse
-- [ ] What is Web Accessibility? - slide presentation
+- [ ] *provide equal access and equal opportunity to people with disabilities*
+- [ ] *Always use the `<title>` tag and `alt` attribute for images*
+- [ ] *What`s a screen reader?*
+- [ ] *using the `aria-label` attribute*
+- [ ] *[Google Lighthouse](https://developers.google.com/web/tools/lighthouse)*
+- [ ] *What is Web Accessibility? - slide presentation*
 
 ## Understanding the cascade, specificity and inheritance
 
 - [ ] Conflicting rules
-- [ ] !important and why not to use it
+- [ ] [!important and why not to use it](https://css-tricks.com/when-using-important-is-the-right-choice/)
 - [ ] Specificity - selecting by element, class, ID
 - [ ] Inline always wins
 - [ ] Non-inheriting properties - `width` and `border`
 - [x] Using dev tools to inspect the cascade
 - [ ] Controlling inheritance - `inherit`, `initial`, `unset`
-- [ ] Source order
-- [x] Specificity calculator
+- [ ] [Source order](https://wattenberger.com/blog/css-cascade)
+- [x] [Specificity calculator](https://specificity.keegan.st/)
 
 ---
 # DAY 7
@@ -198,18 +198,19 @@
 
 ## Block Level Semantics
 
-- [x] A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can)
-- [ ] `<section>`, `<article>` and `<aside>`
+- [x] A [block-level element](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements) always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can) ([w3schools](https://www.w3schools.com/css/css_display_visibility.asp))
+- [ ] [`<section>`, `<article>` and `<aside>`](https://www.w3schools.com/html/html5_semantic_elements.asp)
 - [ ] Top and bottom of segments - `<header>` and `<footer>`
 - [x] `<div>` - a generic box for styling
 - [x] Self study - using MDN to find more block elements
+- [ ] (Block vs inline](https://stackoverflow.com/a/9189873)
 
 ---
 # DAY 8
 
 ## Modeling Boxes
 
-- [ ] Setting box width with `box-sizing: border-box;`
+- [ ] [Setting box width with `box-sizing: border-box;`](https://css-tricks.com/box-sizing/)
 - [x] Spacing out our boxes - `margin` is for outside, `padding` for inside
 - [ ] Reset me softly - `* {margin: 0; padding:0; box-sizing: border-box;}`
 - [ ] Margins, paddings, width and height on inline elements
@@ -704,10 +705,11 @@
 
 ## Modeling Boxes
 
-- [ ] Setting box width with `box-sizing: border-box;`
+- [ ] [Setting box width with `box-sizing: border-box;`](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing) ([Try It Yourself](https://www.w3schools.com/css/tryit.asp?filename=trycss3_box-sizing_old))
 - [x] Spacing out our boxes - `margin` is for outside, `padding` for inside
 - [ ] Reset me softly - `* {margin: 0; padding:0; box-sizing: border-box;}`
-- [ ] Margins, paddings, width and height on inline elements
+- [ ] [The universal selector *](https://www.geeksforgeeks.org/what-is-the-use-of-asterisk-selector-in-css/)
+- [ ] [Margins, paddings, width and height on inline elements](https://dciforks.github.io/inline-margin/)
 - [ ] Changing boxes with css `display` and `inline`, `block` and `inline-block`
 
 ---
