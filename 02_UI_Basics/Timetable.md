@@ -11,42 +11,7 @@
 - [x] File directories
 - [x] Extensions (live server, prettier)
 - [ ] Keyboard shortcuts
-- [ ] introducing emmet
-
-## Examining the boilerplate
-
-- [x] `<!DOCTYPE html>`
-- [x] meta tags
-- [x] Character set
-- [x] `<html>` is the root element
-- [x] `<head>`, `<body>`, `<title>`
-
-## Up and Running
-
-- [x] Anatomy of an element (opening tag, content, closing tag)
-- [x] `<h1>` - [ ] `<h6>`, `<p>`
-- [x] Running our file locally and globally
-- [x] Commenting with `<!-- [comment] -->`
-- [x] The importance of clean, indented code
-
----
-
-# DAY 2
-
-## Introducing Style
-
-## *Intro*
-- [ ] *History of HTML*
-- [ ] *HTML document and the browser*
-- [ ] *Defining the user*
-
-## Code Editor
-
-- [x] Setting up VSCode
-- [x] File directories
-- [x] Extensions (live server, prettier)
-- [ ] Keyboard shortcuts
-- [ ] introducing emmet
+- [ ] [Introducing emmet](https://emmet.io/)
 
 ## Examining the boilerplate
 
@@ -74,7 +39,7 @@
 - [x] Writing CSS inline, internally and externally
 - [x] Anatomy of a declaration (selector, declaration, property, value)
 - [x] The `<link>` tag
-- [x] Commenting with `\*[comment]*\`
+- [x] Commenting with `\*[comment]*\` (Ctrl-/ or Strg-Shift-7)
 
 ## Separation of Concerns - content and presentation
 
@@ -102,18 +67,18 @@
 - [x] linking pages
 - [x] ID linking
 - [x] web links
-- [ ] Sending emails with `mailto:`
+- [ ] [Sending emails with `mailto:`](https://www.w3schools.com/tags/tag_address.asp)
 
-## Color in CSS
+## [Color in CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
 
-- [ ] Using keywords, RGB, RGBA, hex
-- [ ] Transparency and opacity
+- [ ] [Using keywords, RGB, RGBA, hex](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#syntax_2)
+- [ ] [Transparency](https://www.w3schools.com/css/css_image_transparency.asp) and opacity
 - [x] Combining multiple selectors with `,`
-- [ ] HSL, HSLA for self study
+- [ ] [HSL, HSLA for self study](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#hsl_colors)
 
 ## Pseudo Classes
 
-- [ ] Introducing state pseudo class
+- [ ] [Introducing state pseudo class](https://www.w3schools.com/css/css_pseudo_classes.asp) ([in depth presentation](https://www.smashingmagazine.com/2016/05/an-ultimate-guide-to-css-pseudo-classes-and-pseudo-elements/))
 - [x] Coloring links with `:hover`, `:active` and `:visited`
 - [ ] The importance of state in [UI/UX](https://givegoodux.com/use-5-principles-interaction-design-supercharge-ui-part-1-5/) - feedback and predictability
 - [x] Using MDN to locate [additional selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors), [combinators](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators), [elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) and rules ([Overview of CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured))
@@ -147,8 +112,8 @@
 - [ ] [Absolute and Relative links](https://www.webstix.com/knowledgebase/general/relative-links-vs-absolute-links/)
 - [x] Framing our image with `border`
 - [x] Controlling corners with `border-radius`
-- [ ] `width` and `object-fit` to control the aspect-ratio
-- [ ] Image link by wrapping `<img>` with `<a>`
+- [ ] [`width` and `object-fit` to control the aspect-ratio](https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit)
+- [ ] [Image link by wrapping `<img>` with `<a>`](https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML)
 - [ ] [using float (strictly with image and text)](https://css-tricks.com/all-about-floats/)
 * [Repo to demonstrate float](https://github.com/DCIForks/float-image) and [Preview](https://dciforks.github.io/float-image/)
 - [ ] Quick intro to [Gimp](https://www.gimp.org/) for image manipulation
@@ -170,11 +135,11 @@
 
 - [ ] Conflicting rules
 - [ ] [!important and why not to use it](https://css-tricks.com/when-using-important-is-the-right-choice/)
-- [ ] Specificity - selecting by element, class, ID
+- [ ] Specificity - [selecting by element, class, ID](https://www.w3schools.com/css/css_selectors.asp)
 - [ ] Inline always wins
 - [ ] Non-inheriting properties - `width` and `border`
 - [x] Using dev tools to inspect the cascade
-- [ ] Controlling inheritance - `inherit`, `initial`, `unset`
+- [ ] [Controlling inheritance - `inherit`, `initial`, `unset`](https://www.digitalocean.com/community/tutorials/css-inherit-initial-unset) ([in depth](https://webdesign.tutsplus.com/tutorials/understanding-css-inheritance-inherit-initial-unset-and-revert-keywords--cms-34233))
 - [ ] [Source order](https://wattenberger.com/blog/css-cascade)
 - [x] [Specificity calculator](https://specificity.keegan.st/)
 

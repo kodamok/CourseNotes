@@ -79,9 +79,10 @@ Here are some rules about how elements are nested.
    It makes no sense to place a `<p>`  paragraph (which starts on a new line) inside a `<span>` (which wraps automatically to the next line), for instance.
 
 4. **Block elements of type text cannot be nested**
-   
+
    If you need to include a list (`<ul>`, `<ol>` or `<dl>`) in a text section, do not nest these inside a paragraph (`<p>`)
 
+5. `<main>` cannot be used as a descendant of an `<article>`, `<aside>`, `<footer>`, `<header>`, or `<nav>` element.
 5. Block elements can nest inline elements
 6. Inline elements can nest other inline elements
 7. Container block elements can contain other block elements
@@ -112,3 +113,7 @@ Here are some rules about how elements are nested.
       <li>Vegetables</li>
       <li>Meat</li>
     </ul>
+
+# Validating your HTML
+
+You can use the [official validator for HTML](https://validator.w3.org/) provided by the W3 organization, or you can install an extension (HTMLHint or W3C Validation) to check your HTML code for problems.
