@@ -204,7 +204,7 @@
 - [ ] Top and bottom of segments - `<header>` and `<footer>`
 - [x] `<div>` - a generic box for styling
 - [x] Self study - using MDN to find more block elements
-- [ ] (Block vs inline](https://stackoverflow.com/a/9189873)
+- [ ] [Block vs inline](https://stackoverflow.com/a/9189873)
 
 ---
 # DAY 8
