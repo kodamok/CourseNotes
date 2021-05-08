@@ -122,22 +122,22 @@
 ---
 # DAY 6
 
-## *The importance of accessibility*
+## [*The importance of accessibility*](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
 
-- [ ] *provide equal access and equal opportunity to people with disabilities*
-- [ ] *Always use the `<title>` tag and `alt` attribute for images*
-- [ ] *What`s a screen reader?*
-- [ ] *using the `aria-label` attribute*
+- [ ] [*provide equal access and equal opportunity to people with disabilities*](https://www.levelaccess.com/accessibility-regulations/germany/)
+- [ ] *Always use the [`title` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title) and the [`alt` attribute](https://moz.com/learn/seo/alt-text) for images ([alternatives to title](https://inclusive-components.design/tooltips-toggletips/))*
+- [ ] [*What`s a screen reader?](https://www.smashingmagazine.com/2018/12/voiceover-screen-reader-web-apps/) ([Enabling Orca on Ubuntu](https://help.ubuntu.com/stable/ubuntu-help/a11y-screen-reader.html.en))*
+- [ ] [*using the `aria-label` attribute*](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics)
 - [ ] *[Google Lighthouse](https://developers.google.com/web/tools/lighthouse)*
-- [ ] *What is Web Accessibility? - slide presentation*
+- [ ] [*What is Web Accessibility? - slide presentation*](What_is_web+accessibility.pdf")
 
 ## Understanding the cascade, specificity and inheritance
 
-- [ ] Conflicting rules
+- [ ] [Conflicting rules](https://medium.com/web-for-you/css-conflict-resolution-rules-explained-9ab90de18aef)
 - [ ] [!important and why not to use it](https://css-tricks.com/when-using-important-is-the-right-choice/)
 - [ ] Specificity - [selecting by element, class, ID](https://www.w3schools.com/css/css_selectors.asp)
-- [ ] Inline always wins
-- [ ] Non-inheriting properties - `width` and `border`
+- [ ] [Inline always wins](https://css-tricks.com/specifics-on-css-specificity/)
+- [ ] [Non-inheriting properties](https://dev.to/muyunyun/inherited-and-non-inherited-in-css-mi4) - `width` and `border`
 - [x] Using dev tools to inspect the cascade
 - [ ] [Controlling inheritance - `inherit`, `initial`, `unset`](https://www.digitalocean.com/community/tutorials/css-inherit-initial-unset) ([in depth](https://webdesign.tutsplus.com/tutorials/understanding-css-inheritance-inherit-initial-unset-and-revert-keywords--cms-34233))
 - [ ] [Source order](https://wattenberger.com/blog/css-cascade)
