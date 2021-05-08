@@ -153,13 +153,14 @@
   boxes on webpage, eg. google.com
 
 ## Containing Content
-- [x] The default box: the `<main>` tag
+- [x] The default box: -the `<main>` tag](https://www.htmlquick.com/reference/tags/main.html)
 - [ ] Shrink Wrapping our content:
-  putting everything in a `<main class=""container"">`
-- [ ] Changing width and centering: css `width` and `margin: auto`
-- [ ] Limiting the height: USE css `height` ONLY in specific situations,
-- [ ] Full height content with the `vh` unit
-- [ ] Control your flow - [ ] the `overflow` property
+  putting everything in a [`<main class="container">` element](https://www.pair.com/support/kb/understanding-bootstraps-grid-system/)
+- [ ] [Changing width and centering: css `width` and `margin: auto`](https://css-tricks.com/almanac/properties/m/margin/#auto-and-centering)
+- [ ] Limiting the [height](https://developer.mozilla.org/en-US/docs/Web/CSS/height): USE css [`height`](https://css-tricks.com/almanac/properties/h/height/) ONLY in specific situations, when the default `auto` value is not the best solution.
+- [ ] Full height content with [the `vh` unit](https://wpshout.com/quick-guides/using-css3-vh-viewport-height-unit/)
+- [ ] [The `vh` unit on mobile Safari and Chrome](https://medium.com/rbi-tech/safaris-100vh-problem-3412e6f13716)
+- [ ] Control your flow: [the `overflow` property](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow)
 
 ## Block Level Semantics
 
@@ -187,8 +188,8 @@
 
 ## Background Images
 
-- [x] `background-image` is for decoration not content
-- [ ] `background-size`, `background-repeat`, `no-repeat`
+- [x] [`background-image`](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image) is for decoration not content
+- [ ] [`background-size`](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size), `background-repeat`, `no-repeat`
 - [ ] Setting multiple attributes with `background` shortcut
 - [ ] Linear and radial gradients
 
