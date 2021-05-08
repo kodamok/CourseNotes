@@ -189,15 +189,20 @@
 ## Background Images
 
 - [x] [`background-image`](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image) is for decoration not content
-- [ ] [`background-size`](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size), `background-repeat`, `no-repeat`
-- [ ] Setting multiple attributes with `background` shortcut
-- [ ] Linear and radial gradients
+- [ ] [`background-size`](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size), [`background-repeat`](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat), `[no-repeat`](https://www.w3schools.com/css/tryit.asp?filename=trycss_background-image_norepeat)
+- [ ] [Setting multiple attributes with `background` shortcut](https://developer.mozilla.org/en-US/docs/Web/CSS/background)
+- [ ] [Linear](https://www.w3schools.com/css/css3_gradients.asp) and [radial](https://developer.mozilla.org/en-US/docs/Web/CSS/radial-gradient()) gradients ([Gradient Generator](https://cssgradient.io/))
 
 ## Positioning
 
-- [ ] Understanding positioning - `static`, `relative`, `absolute`, `fixed`, `sticky`
+- [ ] [Understanding positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/position) - `static`, `relative`, `absolute`, `fixed`, `sticky`
 - [ ] Position offsets - `top`, `bottom`, `right`, `left`
-- [ ] Layering boxes with `z-index`
+* [Demo of the different values for the `position` property](https://dciforks.github.io/css-position/) ([Repo](https://github.com/DCIForks/css-position))
+
+## Layering
+- [ ] [Stacking order of static and positioned elements](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Stacking_without_z-index)
+- [ ] [Layering boxes with `z-index`](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index)
+- [ ] [How z-index is applied to child elements](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context)
 
 ---
 ## UI Basic - Basic Test
