@@ -3,10 +3,10 @@
 - [ ] What is the user?
 - [ ] What is an interface?
 - [ ] What is a user interface?
-- [ ] Intro To UXD - slide deck
+- [ ] [Intro To UXD - slide deck](What is UXD_.pdf)
 
   [bolden](https://www.bolden.nl/work/bolden-2)
-  
+
   [careerfoundry](https://careerfoundry.com/en/blog/ui-design/8-sites-with-great-ui/)
 
 ## Inline Text Semantics
@@ -60,6 +60,8 @@ Information that is no longer accurate
   * `::first-letter` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter)
   * `::first-line` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/::first-line)
 
+### [Fonts and Text Styling](UI-UX FONTS&TEXT.pdf)
+
 ## Font Family
 
 - [ ] Different faces for different meanings
@@ -67,3 +69,6 @@ Information that is no longer accurate
 - [ ] Pre Installed System fonts: css `font-family: <font-name>`
 - [ ] Providing fallbacks: font stack values for `font-family`
 - [ ] Getting more fonts: Google fonts and css `@import` directive
+
+### [Typography](Typography.pdf)
+### [Review](canva-web-typography.pdf)
