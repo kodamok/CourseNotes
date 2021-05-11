@@ -2,13 +2,13 @@
 
 - [ ] What is the user?
 - [ ] What is an interface?
-- [ ] What is a user interface?
-- [ ] [Intro To UXD - slide deck](What is UXD_.pdf)
-
-  [bolden](https://www.bolden.nl/work/bolden-2)
 
   [careerfoundry](https://careerfoundry.com/en/blog/ui-design/8-sites-with-great-ui/)
 
+- [ ] What is a user interface?
+- [ ] [Intro To UXD - slide deck](What_is_UXD.pdf)
+
+  [bolden](https://www.bolden.nl/work/bolden-2)
 ## Inline Text Semantics
 
 - [ ] Conveying importance with `<strong>` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong)
@@ -22,26 +22,25 @@ Edited text
 Information that is no longer accurate
   * `<s>` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s)
 
-## Non-semantic Styling
-- [ ] Generic inlines with `<span>`
-  - `color`
-  - `font-style` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-style) | [Try It Yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_font-style)
+## Non-semantic Styling: Generic inlines with `<span>`
+- [ ] `color`
+- [ ] `font-style` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-style) | [Try It Yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_font-style)
     - normal
     - italic
     - oblique
-  - `font-weight`[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight) | [QuirksMode](https://www.quirksmode.org/css/text/fontweight.html)
+- [ ] `font-weight`[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight) | [QuirksMode](https://www.quirksmode.org/css/text/fontweight.html)
     - normal
     - bold
     - lighter
     - bolder
     - 100-900
-  - `text-transform` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform) | [Try It Yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_text-transform) | [css-tricks](https://css-tricks.com/almanac/properties/t/text-transform/)
+- [ ] `text-transform` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform) | [Try It Yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_text-transform) | [css-tricks](https://css-tricks.com/almanac/properties/t/text-transform/)
     - UPPERCASE
     - lowercase
     - Capitalized
     - full-width
     - full-size-kana
-  - `text-decoration` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration) | [css-tricks](https://css-tricks.com/almanac/properties/t/text-decoration/#demo)
+- [ ] `text-decoration` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration) | [css-tricks](https://css-tricks.com/almanac/properties/t/text-decoration/#demo)
     - none
     - +underline
     - +overline
@@ -60,7 +59,7 @@ Information that is no longer accurate
   * `::first-letter` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter)
   * `::first-line` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/::first-line)
 
-### [Fonts and Text Styling](UI-UX FONTS&TEXT.pdf)
+### [Fonts and Text Styling](UI-UX_FONTS&TEXT.pdf)
 
 ## Font Family
 
