@@ -83,7 +83,9 @@ Information that is no longer accurate
    * monospace
    * cursive
    * fantasy
-- [ ] Getting more fonts: [Google fonts](https://fonts.google.com/) and [css `@import` directive](https://developer.mozilla.org/en-US/docs/Web/CSS/@import)
+- [ ] Getting more fonts: [Google fonts](https://fonts.google.com/)
+- [ ] [css `@import` directive](https://developer.mozilla.org/en-US/docs/Web/CSS/@import)
+* [font-display: swap](https://fontsplugin.com/google-fonts-font-display-swap/)
 
 ### [Typography](Typography.pdf)
 ### [Review](canva-web-typography.pdf)
