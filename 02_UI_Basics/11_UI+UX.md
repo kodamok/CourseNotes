@@ -5,11 +5,24 @@
 - [ ] What is a user interface?
 - [ ] Intro To UXD - slide deck
 
+  [bolden](https://www.bolden.nl/work/bolden-2)
+  
+  [careerfoundry](https://careerfoundry.com/en/blog/ui-design/8-sites-with-great-ui/)
+
 ## Inline Text Semantics
 
 - [ ] Conveying importance with `<strong>` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong)
 - [ ] Emphasizing words with `<em>` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em)
 - [ ] Use cases for `<strong>`,`<em>`,`<b>` and `<i>` [Stellify](https://stellify.net/html5-b-and-i-tags-are-going-to-be-useful-read-semantic-again/)
+---
+Edited text
+  * `<del>` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del)
+  * `<ins>` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins)
+
+Information that is no longer accurate
+  * `<s>` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s)
+
+## Non-semantic Styling
 - [ ] Generic inlines with `<span>`
   - `color`
   - `font-style` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-style) | [Try It Yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_font-style)
@@ -42,13 +55,10 @@
     * wavy
   - `text-decoration-color`
 - [ ] Self learning: Finding more inline elements on MDN
-  * `font-variant`
-  * `text-indent`
-  * `::first-letter`
-  * `::first-line`
-  * `<del>` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del)
-  * `<s>` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s)
-  * `<ins>` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins)
+  * `font-variant` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant)
+  * `text-indent` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/text-indent)
+  * `::first-letter` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter)
+  * `::first-line` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/::first-line)
 
 ## Font Family
 
