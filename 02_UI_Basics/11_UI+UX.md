@@ -22,8 +22,18 @@ Edited text
 Information that is no longer accurate
   * `<s>` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s)
 
-## Non-semantic Styling: Generic inlines with `<span>`
+## Semantic Elements
+- [ ] `<cite>` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite)
+
+## Non-semantic Elements
+- [ ] `<sup>` [w3schools](https://www.w3schools.com/tags/tag_sup.asp)
+- [ ] `<sub>`
+
+## Non-semantic Styling: generic inlines with `<span>`
 - [ ] `color`
+- [ ] [`direction`](https://developer.mozilla.org/en-US/docs/Web/CSS/direction)
+   * ltr
+   * rtl
 - [ ] `font-style` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-style) | [Try It Yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_font-style)
     - normal
     - italic
@@ -63,11 +73,22 @@ Information that is no longer accurate
 
 ## Font Family
 
-- [ ] Different faces for different meanings
-- [ ] When to use -serif, sans-serif, monospace and cursive
-- [ ] Pre Installed System fonts: css `font-family: <font-name>`
+- [ ] [Different faces for different meanings](https://www.smashingmagazine.com/2010/12/what-font-should-i-use-five-principles-for-choosing-and-using-typefaces/)
+- [ ] [When to use -serif, sans-serif, monospace and cursive
+- [ ] [Pre Installed System Fonts: css `font-family: <font-name>`](https://practicaltypography.com/system-fonts.html)
+- [ ] [Web-safe Fonts](https://www.hostinger.com/tutorials/best-html-web-fonts)
 - [ ] Providing fallbacks: font stack values for `font-family`
-- [ ] Getting more fonts: Google fonts and css `@import` directive
+   * serif
+   * sans-serif
+   * monospace
+   * cursive
+   * fantasy
+- [ ] Getting more fonts: [Google fonts](https://fonts.google.com/) and [css `@import` directive](https://developer.mozilla.org/en-US/docs/Web/CSS/@import)
 
 ### [Typography](Typography.pdf)
 ### [Review](canva-web-typography.pdf)
+
+## Resources
+
+* [IstiZada lorem ipsem in Arabic](https://developer.mozilla.org/en-US/docs/Web/CSS/direction)
+* [Availability of fonts](https://www.cssfontstack.com/)
