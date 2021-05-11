@@ -2,10 +2,11 @@
 
 - [ ] What is the user?
 - [ ] What is an interface?
-
-  [careerfoundry](https://careerfoundry.com/en/blog/ui-design/8-sites-with-great-ui/)
-
 - [ ] What is a user interface?
+
+* [Principles](https://careerfoundry.com/en/blog/ui-design/what-is-a-user-interface/)
+* [Examples](https://careerfoundry.com/en/blog/ui-design/8-sites-with-great-ui/)
+
 - [ ] [Intro To UXD - slide deck](What_is_UXD.pdf)
 
   [bolden](https://www.bolden.nl/work/bolden-2)
@@ -74,7 +75,7 @@ Information that is no longer accurate
 ## Font Family
 
 - [ ] [Different faces for different meanings](https://www.smashingmagazine.com/2010/12/what-font-should-i-use-five-principles-for-choosing-and-using-typefaces/)
-- [ ] [When to use -serif, sans-serif, monospace and cursive
+- [ ] When to use -serif, sans-serif, monospace and cursive
 - [ ] [Pre Installed System Fonts: css `font-family: <font-name>`](https://practicaltypography.com/system-fonts.html)
 - [ ] [Web-safe Fonts](https://www.hostinger.com/tutorials/best-html-web-fonts)
 - [ ] Providing fallbacks: font stack values for `font-family`
@@ -94,3 +95,12 @@ Information that is no longer accurate
 
 * [IstiZada lorem ipsem in Arabic](https://developer.mozilla.org/en-US/docs/Web/CSS/direction)
 * [Availability of fonts](https://www.cssfontstack.com/)
+
+---
+
+# Exercises
+
+* [Inline tags](https://classroom.github.com/a/dRIuXUzi)
+* [Font Sizing](https://classroom.github.com/a/cAIyB9vG)
+* [Fabulous Fonts](https://classroom.github.com/a/FRiG1brk)
+* [Emphasis](https://classroom.github.com/a/_SNFyHII)
