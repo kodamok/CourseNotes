@@ -224,9 +224,9 @@
 - [ ] Self learning: Finding more inline elements on MDN
 
 ## Font Family
-- [ ] Different faces for different meanings:
-  when to use - [ ] serif, sans-serif, monspace and cursive
-- [i] Pre Installed System fonts: css `font-family: <font-name>`
+- [ ] Different faces for different meanings
+- [ ] When to use -serif, sans-serif, monospace and cursive
+- [ ] Pre Installed System fonts: css `font-family: <font-name>`
 - [ ] Providing fallbacks: font stack values for `font-family`
 - [ ] Getting more fonts: Google fonts and css `@import` directive
 
