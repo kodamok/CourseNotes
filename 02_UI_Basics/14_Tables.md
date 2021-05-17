@@ -33,8 +33,9 @@ By the end of this sub module, you should be able to:
 |[span](https://www.w3schools.com/tags/att_span.asp) |attribute|||used with `colgroup` and `col` to define more than one column
 |[colspan](https://www.w3schools.com/tags/att_td_colspan.asp) |attribute|||used with `td` to make a cell span more than one column
 |[rowspan](https://www.w3schools.com/tags/att_td_rowspan.asp   ) |attribute|||used with `td` to make a cell span more than one row
+|**Accessibility**
 |[scope](https://www.w3schools.com/tags/att_scope.asp) |attribute|||used with `tr` to define if header is for `col`, `colgroup`, `row` or `rowgroup`
-|[headers](https://www.w3schools.com/tags/att_headers.asp) |attribute|||used with `th` or `td` to indicate the `id`(s) of related header cells
+|[headers](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced#tables_for_visually_impaired_users) |attribute|||used with `th` or `td` to indicate the `id`(s) of related header cells
 
 ---
 
