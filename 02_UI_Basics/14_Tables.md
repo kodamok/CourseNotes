@@ -43,19 +43,37 @@ By the end of this sub module, you should be able to:
 ### Essential elements
 - [ ] Rows: `<tr>`
 - [ ] Cells: `<td>`
+- [ ] Implicit `<tbody>` element
+- [ ] `display: table`
+- [ ] `display: table-row-group`
+- [ ] `display: table-cell`
+- [ ] Can change CSS of `table`, `tr`, `td`
+
+
 ### Optional Semantic sections:
+- [ ] Table head `<thead>` and `th` for column names
+- [ ] `thead` must contain one or more `tr` elements
+- [ ] `table-header-group` centered, vertically-aligned and bold by default
+<br>
+**Exercise 1**
+<br>
+- [ ] Header cells for columns and rows`<th scope=[...]>`
 - [ ] Additional info with `<caption>`
-- [ ] Headers for columns and rows: `<thead>`, `<th scope=[...]>`
 - [ ] The `scope` attribute for improved accessibility of header cells
 - [ ] Body: `<tbody>`
 - [ ] Foot: `<tfoot>`
 - [ ] Hierarchical headers: `<... headers="header-id,...">`
+
 ### Defining columns
 - [ ] `<colgroup>`
 - [ ] `<col>`
 - [ ] `<... span="3" class="column-name">`
+- [ ] `td` elements do not inherit from `col` or `colgroup`
+- [ ] Can only change `width`, `border`, `background-...`  (+ `visibility`)
+   * [StackOverflow](https://stackoverflow.com/questions/41502820/what-css3-properties-does-the-col-element-support)
+   * [Visibility support](https://stackoverflow.com/questions/42395438/css-col-visibilitycollapse-does-not-work-on-chrome)
 ### Spanning rows and columns
-- [ ] Multiple rows:`<td rowspan=""..."">`
+- [ ] Multiple rows: `<td rowspan=""..."">`
 - [ ] Multiple columns: `<td colspan=""..."">`
 - [ ] [Examples](https://www.computerhope.com/issues/ch001655.htm)
 ###
@@ -90,14 +108,21 @@ Other elements can be styled as tables:
   ![Companies Table](data_img/table_companies.png)
 * [Contact Data](https://classroom.github.com/a/PQL8lSAP)<br>
   ![Contact Data](data_img/table_contact.png)
+  [See w3schools example](https://www.w3schools.com/html/html_tables.asp)
 * [Styling Tables](https://classroom.github.com/a/E4eJRlMK)<br>
  ![Styling Tables](data_img/stylingtables.jpg)
 * [Table Stripes](https://classroom.github.com/a/Goze10pq)<br>
  ![Table Stripes](data_img/tablestripes.jpg)
+* [Timetable](https://classroom.github.com/a/tfIn8qVq)
+ ![Timetable](data_img/timetable.png)
 * [Calendar](https://classroom.github.com/a/j1Ce_TbH)<br>
  ![Calendar](data_img/table_calendar.png)
 
 # Resources
 
-[The Complete Guide to Tables](https://css-tricks.com/complete-guide-table-element/)
-[Tables.pdf](Tables.pdf)
+- [Tables.pdf](Tables.pdf)
+- [The Complete Guide to Tables](https://css-tricks.com/complete-guide-table-element/)
+- [MDN Reference 1](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics)
+- [MDN Reference 2](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Styling_tables)
+- [How to Improve HTML Table Accessibility with Markup](https://www.hongkiat.com/blog/html-table-accessibility/)
+- [Pseudo-class Selectors](https://css-tricks.com/pseudo-class-selectors/)
