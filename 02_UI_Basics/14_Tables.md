@@ -54,9 +54,6 @@ By the end of this sub module, you should be able to:
 - [ ] Table head `<thead>` and `th` for column names
 - [ ] `thead` must contain one or more `tr` elements
 - [ ] `table-header-group` centered, vertically-aligned and bold by default
-<br>
-**Exercise 1**
-<br>
 - [ ] Header cells for columns and rows`<th scope=[...]>`
 - [ ] Additional info with `<caption>`
 - [ ] The `scope` attribute for improved accessibility of header cells
