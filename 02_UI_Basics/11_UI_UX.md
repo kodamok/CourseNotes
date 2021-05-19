@@ -87,6 +87,7 @@ Information that is no longer accurate
 - [ ] Getting more fonts: [Google fonts](https://fonts.google.com/)
 - [ ] [css `@import` directive](https://developer.mozilla.org/en-US/docs/Web/CSS/@import)
 * [font-display: swap](https://fontsplugin.com/google-fonts-font-display-swap/)
+* [`<link rel=preconnect>`](https://web.dev/uses-rel-preconnect/)
 
 ### [Typography](Typography.pdf)
 ### [Review](canva-web-typography.pdf)
