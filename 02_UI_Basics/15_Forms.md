@@ -94,5 +94,6 @@ For now, you can register with a _form builder_ web site which will send you an 
 
 ---
 * [HTML Web Forms Tutorial For Coding Beginners](https://html.com/forms/)
+* [MDN Web forms — Working with user data](https://developer.mozilla.org/en-US/docs/Learn/Forms)
 * [How to Style Forms With CSS](https://blog.logrocket.com/how-to-style-forms-with-css-a-beginners-guide/)
 * [Custom CSS Styles for Form Inputs and Textareas](https://moderncss.dev/custom-css-styles-for-form-inputs-and-textareas/)
