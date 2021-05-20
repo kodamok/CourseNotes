@@ -53,7 +53,7 @@ For now, you can register with a _form builder_ web site which will send you an 
 - [ ] `type="checkbox"` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
 - [ ] The`value` attribute
 - [ ] The `checked` attribute
-- [ ] `type="radio"`
+- [ ] `type="radio"` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio)
 - [ ] The `id` attribute
 - [ ] The `name` attribute
 - [ ] The `value` attribute
