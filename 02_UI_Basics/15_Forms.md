@@ -42,12 +42,13 @@ For now, you can register with a _form builder_ web site which will send you an 
 - [ ] Other values for the  `<... type="...">` attribute
 
 ### Text
-- [ ] `type="text"`
-- [ ] `type="email"`
-- [ ] `type="password"`
-- [ ] `type="search"`
-- [ ] The `<textarea>` element
-- [ ] Default text - the `placeholder` attribute
+- [ ] `type="text"` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text)
+- [ ] `type="email"` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email)
+- [ ] `type="password"` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password)
+- [ ] `type="search"` [MDN](https://developer.mozilla.org/ru/docs/Web/HTML/Element/Input/search)
+- [ ] The `<textarea>` element [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
+- [ ] Default text - the `placeholder` attribute [Smashing](https://www.smashingmagazine.com/2018/06/placeholder-attribute/)
+- [ ] `::placeholder` pseudo-element [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder)
 
 ### Buttons
 - [ ] `type="checkbox"` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
