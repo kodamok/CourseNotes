@@ -1,5 +1,15 @@
 # Forms and Dynamic Data
 
+**What are forms?**
+
+**What user information will your web site need?**
+
+**How do visitors feel about forms?**
+
+## [Examples of Good Form UI](https://blog.hubspot.com/marketing/form-examples)
+
+---
+
 Forms allow your users to send you data.
 
 ![A form you'll see in a moment](formspree/img/00_EmptyForm.png)
@@ -14,17 +24,19 @@ For now, you can register with a _form builder_ web site which will send you an 
 ## HTML Elements
 
 ### Essential elements and attributes
-- [ ] The `<form ...>` container element
+- [ ] The `<form ...>` container element [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
 - [ ] The `<... action="...">` URL for the backend server
 - [ ] The `<... method="POST">`
    * See more below
-- [ ] The `<input>` element (`type="text"` by default)
+- [ ] The `<input>` element (`type="text"` by default) [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
 - [ ] The `<... name="...">` attribute
-- [ ] The `<button type="submit">` element
+- [ ] The `<input type="submit">` element [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit)
 
 ### Labelling elements
-- [ ] The `<label for="...">` element
+- [ ] The `<label for="...">` element [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)
 - [ ] Using `id`s with elements to be labelled
+- [ ] The `<fieldset>` container [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset)
+- [ ] The `<legend>` element [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend)
 
 ## Input Types
 - [ ] Other values for the  `<... type="...">` attribute
@@ -38,14 +50,14 @@ For now, you can register with a _form builder_ web site which will send you an 
 - [ ] Default text - the `placeholder` attribute
 
 ### Buttons
-- [ ] `type="checkbox"`
+- [ ] `type="checkbox"` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
 - [ ] The`value` attribute
 - [ ] The `checked` attribute
 - [ ] `type="radio"`
 - [ ] The `id` attribute
 - [ ] The `name` attribute
 - [ ] The `value` attribute
-- [ ] `<select>`
+- [ ] `<select>` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
 - [ ] The `<option value="..." selected>` children
 - [ ] Grouping with `<optgroup>` children [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup)
 
@@ -74,8 +86,6 @@ For now, you can register with a _form builder_ web site which will send you an 
 - [ ] Controlled parameters with
 - [ ] `<datalist>`
 - [ ] `<optgroup>`
-
-## [Examples of Good Form UI](https://blog.hubspot.com/marketing/form-examples)
 
 ## Exercises
 
