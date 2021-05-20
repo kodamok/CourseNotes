@@ -83,7 +83,7 @@ Other elements can be styled as tables:
    * `collapse`
    * `separate`
 - [ ] Zebra stripes with pseudo child selectors: `:nth-child() { ... }` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)
-- [ ] Easy layout with `table-layout: fixed` and `:nth-child() { ... }`
+- [ ] Easy layout with `table-layout: fixed` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/table-layout)
    * `auto`
    * `fixed`
    * Need to set `width` of table for `fixed` to work
