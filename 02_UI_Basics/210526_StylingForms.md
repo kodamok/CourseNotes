@@ -21,10 +21,10 @@
    * [Styling autofilled elements](https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/)
 - [ ] `:checked` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:checked)
 - [ ] `:disabled` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:disabled)
+- [ ] `:placeholder` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder)
+- [ ] `:placeholder-shown` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:placeholder-shown)
 - [ ] `:focus` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus)
-- [ ] `outline` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/outline)
-- [ ] `::placeholder` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder)
-- [ ] `::placeholder-shown` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:placeholder-shown)
+- [ ] *`outline`* [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/outline)
 - [ ] [more...](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes#the_input_pseudo-classes)
 
 ## All the Inputs
@@ -70,15 +70,19 @@
    * Provides `x`, `y` coordinates of click
 - [ ] `<input type="month">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/month)
 - [ ] `<input type="number">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number)
-- [ ] `<input type="button">`
-- [ ] `<input type="button">`
-- [ ] `<input type="button">`
-
-- [ ] `<textarea>`
-
+- [ ] `<input type="password">`
+- [ ] `<input type="radio">`
+- [ ] `<input type="range">`
+- [ ] `<input type="reset">`
+- [ ] `<input type="submit">`
+- [ ] `<input type="tel">`
+- [ ] `<input type="text">`
+- [ ] `<input type="time">`
+- [ ] `<input type="url">`
+- [ ] `<input type="week">`
+- [ ]
 ---
-
-- [ ] slider
+- [ ] `<textarea>`
 
 ## Usability
 
