@@ -40,6 +40,8 @@
 - [ ] `<input type="button">`
    * No label required
 - [ ] `<input type="checkbox">`
+   * Multiple buttons in group with same `name`
+   * Style as toggle switch
 - [ ] `<input type="color">`
    * Different in different browsers (Chrome, Firefox, Epiphany, ...)
 
@@ -71,19 +73,22 @@
    * Provides `x`, `y` coordinates of click
 - [ ] `<input type="month">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/month)
 - [ ] `<input type="number">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number)
-- [ ] `<input type="password">`
-- [ ] `<input type="radio">`
+- [ ] `<input type="password">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password)
+   * Set `type` to `text` to show content
+- [ ] `<input type="radio">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio)
+   * Multiple buttons in group with same `name`
+   * `checked`
+   * Style as toggle switch
 - [ ] `<input type="range">`
 - [ ] `<input type="reset">`
 - [ ] `<input type="submit">`
 - [ ] `<input type="tel">`
-- [ ] `<input type="text">`
+- [ ] `<input type="text">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text)
 - [ ] `<input type="time">`
 - [ ] `<input type="url">`
 - [ ] `<input type="week">`
-- [ ]
 ---
-- [ ] `<textarea>`
+- [ ] `<textarea>` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
 
 ## Usability
 
