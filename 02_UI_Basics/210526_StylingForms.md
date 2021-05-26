@@ -10,6 +10,8 @@
 
 - [ ] [Email validation](https://en.wikipedia.org/wiki/Email_address#Syntax)
 
+## Other attributes
+- [ ] `autofocus` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
 - [ ] `disabled` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/disabled)
 - [ ] `readonly` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/readonly)
 
@@ -34,7 +36,6 @@
    * `name="q"`
    * × to delete contents
    * May show previous search terms
-- [ ] `autofocus` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
 
 - [ ] `<input type="button">`
    * No label required
