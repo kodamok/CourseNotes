@@ -111,3 +111,12 @@
 - [ ] [CSS-only toggle switch](https://dev.to/dcodeyt/creating-a-css-only-toggle-switch-5cg3)
 
 - [ ] Custom styling radio buttons
+
+## Exercises
+
+* [Data Form](https://classroom.github.com/a/eT2DKHK2)
+  ![Data Form](data_img/data_form.png)
+* [Styling Forms](https://classroom.github.com/a/Rg7m6gzH)
+  ![Styling Forms](data_img/styling_forms.png)
+* [Transparent Login](https://classroom.github.com/a/DmimjUc5)
+  ![Transparent Login](data_img/transparent_login.png)
