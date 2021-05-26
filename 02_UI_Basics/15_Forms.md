@@ -1,5 +1,15 @@
 # Forms and Dynamic Data
 
+**What are forms?**
+
+**What user information will your web site need?**
+
+**How do visitors feel about forms?**
+
+## [Examples of Good Form UI](https://blog.hubspot.com/marketing/form-examples)
+
+---
+
 Forms allow your users to send you data.
 
 ![A form you'll see in a moment](formspree/img/00_EmptyForm.png)
@@ -14,38 +24,41 @@ For now, you can register with a _form builder_ web site which will send you an 
 ## HTML Elements
 
 ### Essential elements and attributes
-- [ ] The `<form ...>` container element
+- [ ] The `<form ...>` container element [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
 - [ ] The `<... action="...">` URL for the backend server
 - [ ] The `<... method="POST">`
    * See more below
-- [ ] The `<input>` element (`type="text"` by default)
+- [ ] The `<input>` element (`type="text"` by default) [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
 - [ ] The `<... name="...">` attribute
-- [ ] The `<button type="submit">` element
+- [ ] The `<input type="submit">` element [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit)
 
 ### Labelling elements
-- [ ] The `<label for="...">` element
+- [ ] The `<label for="...">` element [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)
 - [ ] Using `id`s with elements to be labelled
+- [ ] The `<fieldset>` container [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset)
+- [ ] The `<legend>` element [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend)
 
 ## Input Types
 - [ ] Other values for the  `<... type="...">` attribute
 
 ### Text
-- [ ] `type="text"`
-- [ ] `type="email"`
-- [ ] `type="password"`
-- [ ] `type="search"`
-- [ ] The `<textarea>` element
-- [ ] Default text - the `placeholder` attribute
+- [ ] `type="text"` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text)
+- [ ] `type="email"` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email)
+- [ ] `type="password"` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password)
+- [ ] `type="search"` [MDN](https://developer.mozilla.org/ru/docs/Web/HTML/Element/Input/search)
+- [ ] The `<textarea>` element [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
+- [ ] Default text - the `placeholder` attribute [Smashing](https://www.smashingmagazine.com/2018/06/placeholder-attribute/)
+- [ ] `::placeholder` pseudo-element [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder)
 
 ### Buttons
-- [ ] `type="checkbox"`
+- [ ] `type="checkbox"` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
 - [ ] The`value` attribute
 - [ ] The `checked` attribute
-- [ ] `type="radio"`
+- [ ] `type="radio"` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio)
 - [ ] The `id` attribute
 - [ ] The `name` attribute
 - [ ] The `value` attribute
-- [ ] `<select>`
+- [ ] `<select>` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
 - [ ] The `<option value="..." selected>` children
 - [ ] Grouping with `<optgroup>` children [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup)
 
@@ -75,4 +88,23 @@ For now, you can register with a _form builder_ web site which will send you an 
 - [ ] `<datalist>`
 - [ ] `<optgroup>`
 
-## [Examples of Good Form UI](https://blog.hubspot.com/marketing/form-examples)
+## Exercises
+
+* [Data Form](https://classroom.github.com/a/eT2DKHK2)
+  ![Data Form](data_img/data_form.png)
+* [Styling Forms](https://classroom.github.com/a/Rg7m6gzH)
+  ![Styling Forms](data_img/styling_forms.png)
+* [Transparent Login](https://classroom.github.com/a/DmimjUc5)
+  ![Transparent Login](data_img/transparent_login.png)
+
+## Resources
+
+* [Forms Basics](Forms-Inputs.pdf)
+* [Design Best Practices](FormDesign_BestPractices.pdf)
+* [Form Inputs](Forms.pdf)
+
+---
+* [HTML Web Forms Tutorial For Coding Beginners](https://html.com/forms/)
+* [MDN Web forms — Working with user data](https://developer.mozilla.org/en-US/docs/Learn/Forms)
+* [How to Style Forms With CSS](https://blog.logrocket.com/how-to-style-forms-with-css-a-beginners-guide/)
+* [Custom CSS Styles for Form Inputs and Textareas](https://moderncss.dev/custom-css-styles-for-form-inputs-and-textareas/)

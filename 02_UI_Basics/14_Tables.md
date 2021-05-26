@@ -54,9 +54,6 @@ By the end of this sub module, you should be able to:
 - [ ] Table head `<thead>` and `th` for column names
 - [ ] `thead` must contain one or more `tr` elements
 - [ ] `table-header-group` centered, vertically-aligned and bold by default
-<br>
-**Exercise 1**
-<br>
 - [ ] Header cells for columns and rows`<th scope=[...]>`
 - [ ] Additional info with `<caption>`
 - [ ] The `scope` attribute for improved accessibility of header cells
@@ -86,7 +83,7 @@ Other elements can be styled as tables:
    * `collapse`
    * `separate`
 - [ ] Zebra stripes with pseudo child selectors: `:nth-child() { ... }` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)
-- [ ] Easy layout with `table-layout: fixed` and `:nth-child() { ... }`
+- [ ] Easy layout with `table-layout: fixed` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/table-layout)
    * `auto`
    * `fixed`
    * Need to set `width` of table for `fixed` to work
