@@ -81,7 +81,7 @@
    *  `direction: rtl` must be set on parent `<fieldset>`
 
 - [ ] [CSS-only toggle switch](https://dev.to/dcodeyt/creating-a-css-only-toggle-switch-5cg3)
-
+- [ ] CSS custom properties [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) [W3C](https://www.w3.org/TR/css-variables-1/#defining-variables)
 - [ ] Custom styling radio buttons
 
 ## Resources
