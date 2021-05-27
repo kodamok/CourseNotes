@@ -1,35 +1,29 @@
 # Review of forms
 
-* [Forms Basics](Forms-Inputs.pdf)
+## Usability
 
-## Validation
-- [ ] `required` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/required)
-- [ ] `minlength` & `maxlength` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/minlength)
-- [ ] `pattern` = regular expression [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern)
-- [ ] `title` attribute to describe the pattern (tooltip) [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title)
+* [Design Best Practices](FormDesign_BestPractices.pdf)
+
+- [ ] Label around checkbox and radio button
+   * Include space between button and label
+   * Accessibility: still use `for` and `id`
 
 - [ ] [Email validation](https://en.wikipedia.org/wiki/Email_address#Syntax)
 
-## Other attributes
 - [ ] `autofocus` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+   * [Demo](https://github.com/FbW-E04-1/ClassBook/tree/main/UIB/2021-05-27/autofocus)
 - [ ] `disabled` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/disabled)
 - [ ] `readonly` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/readonly)
 
 ### Pseudo-classes
-- [ ] `:valid` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:valid)
-- [ ] `:invalid` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:invalid)
-- [ ] `:required` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:required)
 - [ ] `:autofill` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:autofill)
    * [Styling autofilled elements](https://css-tricks.com/snippets/css/change-autocomplete-styles-webkit-browsers/)
-- [ ] `:checked` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:checked)
-- [ ] `:disabled` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:disabled)
 - [ ] `:placeholder` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder)
-- [ ] `:placeholder-shown` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:placeholder-shown)
 - [ ] `:focus` [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus)
 - [ ] *`outline`* [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/outline)
 - [ ] [more...](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes#the_input_pseudo-classes)
 
-## All the Inputs
+## More Inputs
 * [Form Inputs](Forms.pdf)
 
 - [ ] `<input type="search">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/search)
@@ -37,22 +31,11 @@
    * × to delete contents
    * May show previous search terms
 
-- [ ] `<input type="button">`
-   * No label required
 - [ ] `<input type="checkbox">`
    * Multiple buttons in group with same `name`
+   * [Demo](https://github.com/FbW-E04-1/ClassBook/tree/main/UIB/2021-05-27/checkbox-multiple)
    * Style as toggle switch
-- [ ] `<input type="color">`
-   * Different in different browsers (Chrome, Firefox, Epiphany, ...)
-
-- [ ] `<input type="date">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date)
-   * `YYYY-MM-DD` format for `value`, `min` and `max`
-   * `step` starts from `min` date, if present
-   * Use `pattern` for older browsers with text-only input
-   * Show validation with `::after`
-
-- [ ] `<input type="datetime-local">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/datetime-local)
-   * Limited support
+   * [Demo](https://github.com/FbW-E04-1/ClassBook/tree/main/UIB/2021-05-27/toggle-switch)
 
 - [ ] `<input type="file">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file)
    * `accept`
@@ -63,7 +46,7 @@
    * `capture`: visitor can use microphone or camera
    * `multiple`
    * Need server-side treatment to store uploaded file
-   * Cannot
+   * [Demo](https://github.com/FbW-E04-1/ClassBook/tree/main/UIB/2021-05-27/toggle-switch)
 
 - [ ] `<input type="hidden">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden)
    * Invisible to user
@@ -71,28 +54,24 @@
 
 - [ ] `<input type="image">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/image)
    * Provides `x`, `y` coordinates of click
-- [ ] `<input type="month">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/month)
-- [ ] `<input type="number">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number)
 - [ ] `<input type="password">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password)
    * Set `type` to `text` to show content
+   * [Demo](https://github.com/FbW-E04-1/ClassBook/tree/main/UIB/2021-05-27/show-password)
 - [ ] `<input type="radio">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio)
    * Multiple buttons in group with same `name`
    * `checked`
-   * Style as toggle switch
+   * Custom styling
+   * [Demo](https://github.com/FbW-E04-1/ClassBook/tree/main/UIB/2021-05-27/styled-radio)
 - [ ] `<input type="range">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range)
 - [ ] `<input type="reset">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset)
-- [ ] `<input type="submit">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit)
-- [ ] `<input type="tel">`
-- [ ] `<input type="text">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text)
+
 - [ ] `<input type="time">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time)
 - [ ] `<input type="url">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/url)
-- [ ] `<input type="week">`[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/week)
 ---
 - [ ] `<textarea>` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
 - [ ] `<select>` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
 - [ ] `<optgroup>`[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup)
-- [ ] `datalist` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist)
-
+- [ ] `datalist` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist) [CanIUse](https://caniuse.com/datalist)
 
 
 ## Styling Tricks
@@ -105,11 +84,17 @@
 
 - [ ] Custom styling radio buttons
 
+## Resources
+
+- [HTML Web Forms Tutorial](https://html.com/forms/)
+- [How to Style Forms With CSS](https://blog.logrocket.com/how-to-style-forms-with-css-a-beginners-guide/)
+- [Custom Styles for Form Inputs and Textareas](https://moderncss.dev/custom-css-styles-for-form-inputs-and-textareas/)
+
+
 ## Exercises
 
-* [Data Form](https://classroom.github.com/a/eT2DKHK2)
-  ![Data Form](data_img/data_form.png)
-* [Styling Forms](https://classroom.github.com/a/Rg7m6gzH)
-  ![Styling Forms](data_img/styling_forms.png)
 * [Transparent Login](https://classroom.github.com/a/DmimjUc5)
   ![Transparent Login](data_img/transparent_login.png)
+* [Swagger](https://classroom.github.com/a/dELpsdSk)
+  ![Validated Swagger](data_img/validated.png)
+* [Swagger part 2 (validation)](https://classroom.github.com/a/RzdUmN-K)
