@@ -79,27 +79,20 @@
    * Multiple buttons in group with same `name`
    * `checked`
    * Style as toggle switch
-- [ ] `<input type="range">`
-- [ ] `<input type="reset">`
-- [ ] `<input type="submit">`
+- [ ] `<input type="range">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range)
+- [ ] `<input type="reset">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset)
+- [ ] `<input type="submit">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit)
 - [ ] `<input type="tel">`
 - [ ] `<input type="text">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text)
-- [ ] `<input type="time">`
-- [ ] `<input type="url">`
-- [ ] `<input type="week">`
+- [ ] `<input type="time">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time)
+- [ ] `<input type="url">` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/url)
+- [ ] `<input type="week">`[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/week)
 ---
 - [ ] `<textarea>` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea)
+- [ ] `<select>` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select)
+- [ ] `<optgroup>`[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup)
+- [ ] `datalist` [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist)
 
-## Usability
-
-* [Design Best Practices](FormDesign_BestPractices.pdf)
-
-- [ ] Label around checkbox and radio button
-   * Include space between button and label
-   * Accessibility: still use `for` and `id`
-- [ ] `<select>`
-- [ ] `<optgroup>`
-- [ ] `datalist`
 
 
 ## Styling Tricks
@@ -111,3 +104,12 @@
 - [ ] [CSS-only toggle switch](https://dev.to/dcodeyt/creating-a-css-only-toggle-switch-5cg3)
 
 - [ ] Custom styling radio buttons
+
+## Exercises
+
+* [Data Form](https://classroom.github.com/a/eT2DKHK2)
+  ![Data Form](data_img/data_form.png)
+* [Styling Forms](https://classroom.github.com/a/Rg7m6gzH)
+  ![Styling Forms](data_img/styling_forms.png)
+* [Transparent Login](https://classroom.github.com/a/DmimjUc5)
+  ![Transparent Login](data_img/transparent_login.png)
