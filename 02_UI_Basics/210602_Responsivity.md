@@ -157,7 +157,7 @@ Page fits viewport when zoomed out.
 - Responsive text size classes
 - `rem` and `em` in regards to responsivity
 
-## The <picture> element
+## The `<picture>` element
 
 * Syntax
 * Using `media` queries
