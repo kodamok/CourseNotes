@@ -24,7 +24,7 @@ By the end of this sub module, learners should be able to:
   1. CSS Resets
   2. <meta name="viewport" ...>
   3. Media queries
-  4. The <picture> element
+  4. The `<picture>` element
 * Tools
   1. Chrome Device Emulator
   2. Responsive Viewer
@@ -59,13 +59,14 @@ By the end of this sub module, learners should be able to:
 * Example of `<h1>` in `<article>` and `<section>` elements
 * Adapt to suit your own projects
 
-## HTML viewport settings
+[The CSS Cascade](https://wattenberger.com/blog/css-cascade)
+
+## [HTML viewport settings](https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag)
 
 ### Visualizing
 * Create boilerplate HTML with `!` Emmet abbreviation
 * Not currently a standard
-* Apple Documentation
-  * [Configuring the Viewport](https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html)
+* Apple Documentation [Configuring the Viewport](https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html)
 
 ### The Problem
 There are thousands of devices which we can use do connect to a web page, and they come in all shapes and sizes.
@@ -143,7 +144,7 @@ Page fits viewport when zoomed out.
 - Default media type: `screen` is optional
 - Common features: `(min-width: <size>)`
 - Breakpoints: The "standard" bootstrap breakpoint values
-  * xs: 0 — phones
+  * xs: 0 — watches and phones
   * sm: 576px — big phones | landscape mode
   * md: 768px — tablets
   * lg: 992px — large tablets | small desktops
@@ -156,7 +157,7 @@ Page fits viewport when zoomed out.
 - Responsive text size classes
 - `rem` and `em` in regards to responsivity
 
-## The <picture> element
+## The `<picture>` element
 
 * Syntax
 * Using `media` queries
