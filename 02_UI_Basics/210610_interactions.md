@@ -113,7 +113,7 @@
 
 # Exercises
 
-* [Clip Transition]( https://dciforks.github.io/UIB-interaction-clip-transition/)
+* [Clip Transition](https://classroom.github.com/a/kdq1RsYF)
 
   [![Demo](data_img/interactions/transition.png)](https://dciforks.github.io/UIB-interaction-clip-transition/)
 
